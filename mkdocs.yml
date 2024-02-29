@@ -359,6 +359,11 @@ nav:
     - Deobfuscation Examples:
       - modules/javascript-deobfuscation/deobfuscation-examples/http-requests.md
       - modules/javascript-deobfuscation/deobfuscation-examples/decoding.md
+  - MacOS Fundamentals:
+    - modules/macos-fundamentals/index.md
+    - MacOS Basic Usage:
+      - modules/macos-fundamentals/macos-basic-usage/graphical-user-interface.md
+      - modules/macos-fundamentals/macos-basic-usage/system-hierarchy.md
 - Write-Ups:
   - write-ups/index.md
   - Starting Point:

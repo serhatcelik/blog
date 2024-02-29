@@ -20,7 +20,7 @@ FAT32, USB ve SD kartlar gibi birçok depolama aygıtı türünde yaygın olarak
 * [ ] Yerleşik veri koruma veya dosya sıkıştırma özelliği yoktur.
 * [ ] Dosya şifreleme için üçüncü taraf araçlar kullanılmalıdır.
 * [x] Bilgisayarlarda, dijital kameralarda, oyun konsollarında, akıllı telefonlarda ve tabletlerde kullanılabilir.
-* [x] Windows 95 ve sonrası tüm Windows işletim sistemlerinde çalışır ve MacOS ve Linux tarafından da desteklenir.
+* [x] Windows 95 ve sonrası tüm Windows işletim sistemlerinde çalışır ve macOS ve Linux tarafından da desteklenir.
 
 NTFS, Windows NT 3.1 ve sonrası için varsayılan Windows dosya sistemidir. NTFS, FAT32 eksikliklerini gidermenin yanı sıra meta veriler için daha iyi desteğe ve performansa sahiptir.
 
