@@ -1,0 +1,11 @@
+I am only permitted to upload, stream videos and publish solutions in any format for Retired Content of Hack The Box or Free Academy Courses. In detail, this includes the following Hack The Box Content:
+
+* Retired Machines
+* Retired Challenges
+* Retired Sherlocks
+* Retired Endgames
+* Starting Point Machines
+* Tier 0 Academy Modules
+* Practice Battlegrounds Matches
+
+Any streaming or publication of Hack The Box Content solutions not mentioned in the list above violates HTB's [Terms of Service](https://www.hackthebox.com/tos).
