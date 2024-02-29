@@ -10,7 +10,7 @@ Linux sistemlerindeki tüm izin sistemi sekizli sayı sistemine dayanmaktadır v
 
 1. Read
 2. Write
-3. Execute
+3. Execute (traverse for directories)
 
 | File type | Owner | Group | Others | Number of hard links | User | Group | File size | Date |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|

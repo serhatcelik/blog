@@ -20,6 +20,10 @@ search:
 
 * [![](assets/images/badges/2bd573c7-70c4-11ee-b5a6-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/2bd573c7-70c4-11ee-b5a6-bea50ffe6cb4)
 
+* [![](assets/images/badges/30970e1e-d6ff-11ee-891c-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/30970e1e-d6ff-11ee-891c-bea50ffe6cb4)
+
+* [![](assets/images/badges/309961f2-d6ff-11ee-891c-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/309961f2-d6ff-11ee-891c-bea50ffe6cb4)
+
 * [![](assets/images/badges/47bec975-afbc-11ee-bfb6-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/47bec975-afbc-11ee-bfb6-bea50ffe6cb4)
 
 * [![](assets/images/badges/54d0d164-9f5f-11ee-bfb6-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/54d0d164-9f5f-11ee-bfb6-bea50ffe6cb4)

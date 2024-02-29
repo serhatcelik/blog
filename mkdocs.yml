@@ -364,6 +364,9 @@ nav:
     - MacOS Basic Usage:
       - modules/macos-fundamentals/macos-basic-usage/graphical-user-interface.md
       - modules/macos-fundamentals/macos-basic-usage/system-hierarchy.md
+      - modules/macos-fundamentals/macos-basic-usage/networking.md
+    - Extending macOS:
+      - modules/macos-fundamentals/extending-macos/application-management.md
 - Write-Ups:
   - write-ups/index.md
   - Starting Point:
