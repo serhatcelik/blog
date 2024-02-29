@@ -8,7 +8,7 @@ search:
 
 ## Active Directory
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown id="wrapper-grid-template-columns-large">
 
 * [Invoke-TheHash](https://github.com/Kevin-Robertson/Invoke-TheHash)
 
