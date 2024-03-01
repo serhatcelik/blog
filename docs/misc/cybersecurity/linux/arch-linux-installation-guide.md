@@ -261,7 +261,7 @@ known-networks list
 
 ### Update the system clock
 
-Sistemin internet üzerinden güncellenmesine izin vermek için NTP etkin olmalıdır:
+Sistemin internet üzerinden güncellenmesine izin vermek için NTP (Network Time Protocol) etkin olmalıdır:
 
 ```bash
 timedatectl set-ntp true

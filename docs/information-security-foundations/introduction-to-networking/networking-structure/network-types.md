@@ -12,7 +12,7 @@ WAN genellikle The Internet olarak adlandırılır. Ağ ile uğraşırken genell
 
 ## LAN / WLAN
 
-LAN ve WLAN, genellikle yerel kullanım için belirlenmiş IP adreslerini (RFC-1918) kullanır.
+LAN (Local Area Network) ve WLAN (Wireless Local Area Network), genellikle yerel kullanım için belirlenmiş IP adreslerini (RFC-1918) kullanır.
 
 ## VPN
 

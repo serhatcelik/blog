@@ -20,7 +20,7 @@ Linux sistemleri aşağıda verilen 5 temel prensibi takip eder:
 
 | Component | Description |
 |:---|:---|
-| Bootloader | İşletim sistemini başlatmak için önyükleme işlemini yönlendirmek üzere çalışan bir kod parçasıdır. ParrotOS Linux Bootloader olarak GRUB kullanır. |
+| Bootloader | İşletim sistemini başlatmak için önyükleme işlemini yönlendirmek üzere çalışan bir kod parçasıdır. ParrotOS Linux Bootloader olarak GRUB (Grand Unified Bootloader) kullanır. |
 | OS Kernel | Sistemin I/O kaynaklarını donanım düzeyinde yönetir. |
 | Daemons | Arka plan hizmetlerine verilen isimdir. Bu küçük programlar bilgisayarda önyükleme yaptıktan veya oturum açtıktan sonra yüklenir. |
 | OS Shell | Komut dili tercümanı ya da komut satırı, işletim sistemi ile kullanıcı arasındaki arayüzdür. Bu arayüz, kullanıcının işletim sistemine ne yapması gerektiğini söylemesine olanak tanır. En sık kullanılan shell tipleri: Bash, Tcsh/Csh, Ksh, Zsh ve Fish. |

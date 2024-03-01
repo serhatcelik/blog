@@ -15,7 +15,7 @@ LOLBins (Living Off The Land Binaries) terimi, bir saldırganın orijinal amacı
 
 ### LOLBAS
 
-LOLBAS sitesinde indirme ve yükleme işlevlerini aramak için `/download` veya `/upload` filtrelerini kullanabiliriz.
+LOLBAS (Living Off The Land Binaries, Scripts and Libraries) sitesinde indirme ve yükleme işlevlerini aramak için `/download` veya `/upload` filtrelerini kullanabiliriz.
 
 Örnek olarak [CertReq.exe](https://lolbas-project.github.io/lolbas/Binaries/Certreq/) aracını ele alalım. Netcat aracını kullanarak gelen trafiği, saldırı makinemizdeki bir port üzerinden dinlememiz ve ardından bir dosya yüklemek için `#!batch CertReq.exe` aracını çalıştırmamız gerekiyor:
 

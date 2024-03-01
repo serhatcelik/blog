@@ -6,7 +6,7 @@ search:
 
 # Cross-Site Scripting (XSS)
 
-XSS pratikte HTML enjeksiyonuna çok benzer. Ancak XSS istemci tarafında daha gelişmiş saldırılar gerçekleştirmek için JavaScript kodunun enjeksiyonunu içerir.
+XSS pratikte HTML enjeksiyonuna çok benzer. Ancak XSS, istemci tarafında daha gelişmiş saldırılar gerçekleştirmek için JavaScript kodunun enjeksiyonunu içerir.
 
 ## Questions
 

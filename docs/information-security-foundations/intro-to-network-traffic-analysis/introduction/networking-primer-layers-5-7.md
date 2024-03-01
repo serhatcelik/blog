@@ -16,4 +16,4 @@ HTTPS, veri güvenliği için eski uygulamalarla TLS veya SSL kullanmak üzere t
 
 ## FTP
 
-FTP, bilgi işlem aygıtları arasında hızlı veri aktarımını sağlayan bir protokolüdür. FTP, komut satırından, web tarayıcısından veya FileZilla gibi grafiksel bir FTP istemcisi aracılığıyla kullanılabilir. FTP güvenli bir protokol değildir. Çoğu kullanıcı dosyaları güvenli kanallar üzerinden aktarmak için SFTP gibi araçlar kullanmaya başlamıştır.
+FTP, bilgi işlem aygıtları arasında hızlı veri aktarımını sağlayan bir protokolüdür. FTP, komut satırından, web tarayıcısından veya FileZilla gibi grafiksel bir FTP istemcisi aracılığıyla kullanılabilir. FTP güvenli bir protokol değildir. Çoğu kullanıcı dosyaları güvenli kanallar üzerinden aktarmak için SFTP (Secure File Transfer Protocol) gibi araçlar kullanmaya başlamıştır.

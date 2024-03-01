@@ -12,7 +12,7 @@ Nesne, AD ortamında bulunan OU (Organizational Unit), yazıcı, kullanıcı, do
 
 ## Attributes
 
-AD içinde bulunan her nesne belirli bir nesnenin özelliklerini tanımlamak için kullanılan ilişkili bir dizi [öznitelik](https://learn.microsoft.com/en-us/windows/win32/adschema/attributes-all) bilgisine sahiptir. Bir bilgisayar nesnesi bilgisayar adı ve DNS adı gibi nitelikleri içerir. Tüm özniteliklerin LDAP sorguları gerçekleştirilirken kullanılabilecek ilişkili bir LDAP adı vardır.
+AD içinde bulunan her nesne belirli bir nesnenin özelliklerini tanımlamak için kullanılan ilişkili bir dizi [öznitelik](https://learn.microsoft.com/en-us/windows/win32/adschema/attributes-all) bilgisine sahiptir. Bir bilgisayar nesnesi bilgisayar adı ve DNS adı gibi nitelikleri içerir. Tüm özniteliklerin LDAP (Lightweight Directory Access Protocol) sorguları gerçekleştirilirken kullanılabilecek ilişkili bir LDAP adı vardır.
 
 ## Schema
 
@@ -68,7 +68,7 @@ Bu özellik AD içindeki kullanıcıları tanımlamanın başka bir yoludur. Bir
 
 ## FSMO Roles
 
-Beş adet FMSO rolü vardır:
+Beş adet FSMO (Flexible Single Master Operation) rolü vardır:
 
 | Role | Description |
 |:---|:---|

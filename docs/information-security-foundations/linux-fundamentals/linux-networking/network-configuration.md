@@ -30,11 +30,11 @@ iface eth0 inet static
 
 ## Network Access Control
 
-NAC, ağ güvenliğinin önemli bir bileşenidir. Güvenlik önlemlerini geliştirmek için kullanılabilecek farklı NAC teknolojileri şunlardır:
+NAC (Network Access Control), ağ güvenliğinin önemli bir bileşenidir. Güvenlik önlemlerini geliştirmek için kullanılabilecek farklı NAC teknolojileri şunlardır:
 
-* DAC
-* MAC
-* RBAC
+* DAC (Discretionary Access Control)
+* MAC (Mandatory Access Control)
+* RBAC (Role-Based Access Control)
 
 ## Troubleshooting
 
@@ -54,7 +54,7 @@ ping 8.8.8.8
 
 ### Traceroute
 
-Uzaktaki bir bilgisayara artan TTL değerlerine sahip paketler gönderir ve paketlerin geçtiği cihazların IP adreslerini görüntüler.
+Uzaktaki bir bilgisayara artan TTL (Time-to-Live) değerlerine sahip paketler gönderir ve paketlerin geçtiği cihazların IP adreslerini görüntüler.
 
 ```bash
 traceroute www.inlanefreight.com

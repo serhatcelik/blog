@@ -11,7 +11,7 @@
         "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
     ],
     "markdownlint.config": {
-        "MD033": false,
-        "MD045": false
+        "MD045": false,
+        "MD046": false
     }
 }

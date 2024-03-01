@@ -22,7 +22,7 @@ OSI ise ağ ile son kullanıcılar arasında bir iletişim ağ geçididir. OSI m
 
 ## Packet Transfers
 
-Katmanlı bir sistemde, katmandaki cihazlar, PDU adı verilen farklı bir format kullanarak veri alışverişi yapar. Örneğin bir web sitesine göz atmak istediğimizde, uzak sunucu yazılımı öncelikle istenen verileri uygulama katmanına aktarır. Bu veriler katman katman işlenir. Her katman kendisine atanan işlevleri yerine getirir. Veriler daha sonra hedef makine veya başka bir cihaz onu alana kadar ağın fiziksel katmanı aracılığıyla aktarılır.
+Katmanlı bir sistemde, katmandaki cihazlar, PDU (Protocol Data Unit) adı verilen farklı bir format kullanarak veri alışverişi yapar. Örneğin bir web sitesine göz atmak istediğimizde, uzak sunucu yazılımı öncelikle istenen verileri uygulama katmanına aktarır. Bu veriler katman katman işlenir. Her katman kendisine atanan işlevleri yerine getirir. Veriler daha sonra hedef makine veya başka bir cihaz onu alana kadar ağın fiziksel katmanı aracılığıyla aktarılır.
 
 ![](../assets/images/net-models-pdu.png)
 

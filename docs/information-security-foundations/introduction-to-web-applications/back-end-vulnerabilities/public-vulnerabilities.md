@@ -8,7 +8,7 @@ search:
 
 ## Public CVE
 
-Pek çok kuruluş açık kaynak ve özel web uygulamaları gibi genel olarak kullanılan web uygulamalarını dağıttığından, bu web uygulamaları, dünya çapında birçok kuruluş ve uzman tarafından test edilme eğilimindedir. Bu, çoğuna yama uygulanan ve daha sonra herkese açık olarak paylaşılan ve bir CVE kaydı ve puanı atanan çok sayıda güvenlik açığının ortaya çıkmasına yol açar.
+Pek çok kuruluş açık kaynak ve özel web uygulamaları gibi genel olarak kullanılan web uygulamalarını dağıttığından, bu web uygulamaları, dünya çapında birçok kuruluş ve uzman tarafından test edilme eğilimindedir. Bu, çoğuna yama uygulanan ve daha sonra herkese açık olarak paylaşılan ve bir CVE (Common Vulnerabilities and Exposures) kaydı ve puanı atanan çok sayıda güvenlik açığının ortaya çıkmasına yol açar.
 
 ## Common Vulnerability Scoring System (CVSS)
 

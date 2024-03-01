@@ -14,7 +14,7 @@ sudo apt-get install -y lxc lxc-utils
 
 ## Securing LXC
 
-LXC için kullanılan kaynaklar sınırlanarak güvenlik artırılabilir.
+LXC (Linux Containers) için kullanılan kaynaklar sınırlanarak güvenlik artırılabilir.
 
 Kapsayıcının kullanabileceği işlemci süresini ayarla:
 

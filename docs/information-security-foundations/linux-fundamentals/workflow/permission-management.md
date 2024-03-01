@@ -56,7 +56,7 @@ chown root:root script.py && ls -l script.py
 
 ## SUID & SGID
 
-SUID ve SGID biti herhangi bir programın, herhangi bir kullanıcı tarafından, o programın sahibinin yetkilerinde çalıştırılmasını sağlar. Bu sayede erişim yetkimizin bulunmadığı bir dosya üzerinde değişiklik yapabiliriz. Örneğin sıradan bir kullanıcı `#!bash passwd` komutunu kullanarak kendi parolasını değiştirdiğinde `root` kullanıcısına ait olan `/etc/shadow` dosyası içerisinde kendine ait parola özetini değiştirmiş olur. Böylelikle kendisine ait olmayan bir dosyada düzenleme yapabilmiştir. Değer `s` ise SUID/SGID aktif ve çalıştırılabilir izin mevcut anlamına gelir. Değer `S` ise SUID/SGID aktif ve çalıştırılabilir izin mevcut değil anlamına gelir.
+SUID (Set owner User ID) ve SGID (Set owner Group ID) biti herhangi bir programın, herhangi bir kullanıcı tarafından, o programın sahibinin yetkilerinde çalıştırılmasını sağlar. Bu sayede erişim yetkimizin bulunmadığı bir dosya üzerinde değişiklik yapabiliriz. Örneğin sıradan bir kullanıcı `#!bash passwd` komutunu kullanarak kendi parolasını değiştirdiğinde `root` kullanıcısına ait olan `/etc/shadow` dosyası içerisinde kendine ait parola özetini değiştirmiş olur. Böylelikle kendisine ait olmayan bir dosyada düzenleme yapabilmiştir. Değer `s` ise SUID/SGID aktif ve çalıştırılabilir izin mevcut anlamına gelir. Değer `S` ise SUID/SGID aktif ve çalıştırılabilir izin mevcut değil anlamına gelir.
 
 ```bash
 chmod 4755 script.py && ls -l script.py

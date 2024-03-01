@@ -14,7 +14,7 @@ Ağ topolojisi alanının tamamını üç alana ayırabiliriz: Connections (wire
 
 ![](../assets/images/topo-p2p.png)
 
-İki bilgisayarın aralarında özel bir bağlantıya sahip olduğu en basit ağ topolojisidir. Bu topolojide, doğrudan ve basit fiziksel bağlantı yalnızca iki bilgisayar arasında mevcuttur. Bu topoloji geleneksel telefonun temel modelidir ve P2P mimarisi ile karıştırılmamalıdır.
+İki bilgisayarın aralarında özel bir bağlantıya sahip olduğu en basit ağ topolojisidir. Bu topolojide, doğrudan ve basit fiziksel bağlantı yalnızca iki bilgisayar arasında mevcuttur. Bu topoloji geleneksel telefonun temel modelidir ve P2P (Peer-to-Peer) mimarisi ile karıştırılmamalıdır.
 
 ## Bus
 
@@ -45,7 +45,7 @@ Bu, her bilgisayara bir kablonun geldiği ve bir kablonun ayrıldığı anlamın
 
 Örgülü ağlarda birçok düğüm fiziksel düzeydeki bağlantılara ve mantıksal düzeydeki yönlendirmeye karar verir. Bu nedenle örgü yapıların sabit bir topolojisi yoktur. İki temel örgülü yapı vardır: Tamamen örgülü yapı ve kısmen örgülü yapı.
 
-Tamamen örgülü yapıda her bilgisayar ağdaki diğer tüm bilgisayarlara bağlıdır. Bu yapı daha çok WAN veya MAN ağlarında yüksek güvenilirlik ve bant genişliği sağlamak için kullanılır. Bu kurulumda router gibi önemli ağ düğümleri birlikte ağa bağlanabilir. Bir router arızalanırsa diğerleri sorunsuz çalışmaya devam edebilir.
+Tamamen örgülü yapıda her bilgisayar ağdaki diğer tüm bilgisayarlara bağlıdır. Bu yapı daha çok WAN (Wide Area Network) veya MAN (Metropolitan Area Network) ağlarında yüksek güvenilirlik ve bant genişliği sağlamak için kullanılır. Bu kurulumda router gibi önemli ağ düğümleri birlikte ağa bağlanabilir. Bir router arızalanırsa diğerleri sorunsuz çalışmaya devam edebilir.
 
 Kısmen örgülü yapıda uç noktalar, yalnızca tek bir bağlantıyla birbirine bağlıdırlar.
 

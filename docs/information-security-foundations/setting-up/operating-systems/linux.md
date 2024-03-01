@@ -8,9 +8,9 @@ search:
 
 ## LUKS Encryption
 
-LUKS, Linux sistemleri için tasarlanmış bir disk şifreleme yöntemidir. Yeni bir sistem kurmadan önce diskimizi bu yöntemi kullanarak şifreleyebiliriz.
+LUKS (Linux Unified Key Setup), Linux sistemleri için tasarlanmış bir disk şifreleme yöntemidir. Yeni bir sistem kurmadan önce diskimizi bu yöntemi kullanarak şifreleyebiliriz.
 
-LUKS, LVM yapısı ile kullanılabilir. LVM bir disk yapılandırma yöneticisidir. Boyut tahmini yapılamayan senaryolarda avantaj sağlamaktadır. Örneğin 3 GB boyutunda 3 adet diskimiz olsun ve ev dizini için 6 GB yer gerekli olsun. LVM sayesinde 2 adet 3 GB diski tek bir 6 GB disk gibi göstererek kullanabiliriz. Başka bir örnek olarak ev dizini için 100 GB yer ayrılmış ama sadece 50 GB kullanımda olsun. Başka bir dizin için 20 GB yer ihtiyacı olursa, ev dizinimizde kullanılmayan 50 GB alandan 20 GB alanı rahatlıkla bu dizine aktarabiliriz.
+LUKS, LVM (Logical Volume Manager) yapısı ile kullanılabilir. LVM bir disk yapılandırma yöneticisidir. Boyut tahmini yapılamayan senaryolarda avantaj sağlamaktadır. Örneğin 3 GB boyutunda 3 adet diskimiz olsun ve ev dizini için 6 GB yer gerekli olsun. LVM sayesinde 2 adet 3 GB diski tek bir 6 GB disk gibi göstererek kullanabiliriz. Başka bir örnek olarak ev dizini için 100 GB yer ayrılmış ama sadece 50 GB kullanımda olsun. Başka bir dizin için 20 GB yer ihtiyacı olursa, ev dizinimizde kullanılmayan 50 GB alandan 20 GB alanı rahatlıkla bu dizine aktarabiliriz.
 
 ## Updates & Package Manager
 
@@ -93,7 +93,7 @@ echo 'export PS1="\[\e[32m\]┌──(\[\e[94m\]\u\[\e[0m\]@\[\e[94m\]\h\[\e[32m
 
 ### Request Prompt.sh
 
-Script dosyasını kendimize ait olan bir VPS üzerinden ulaşılabilir duruma getirirsek, aşağıdaki komutla bu script dosyasına erişebilir ve çalıştırabiliriz:
+Script dosyasını kendimize ait olan bir VPS (Virtual Private Server) üzerinden ulaşılabilir duruma getirirsek, aşağıdaki komutla bu script dosyasına erişebilir ve çalıştırabiliriz:
 
 ```bash
 curl -s http://myvps.vps-provider.net/Prompt.sh | bash

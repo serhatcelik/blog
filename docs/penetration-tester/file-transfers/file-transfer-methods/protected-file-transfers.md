@@ -175,7 +175,7 @@ Sızma testi yapılan her firmaya özel çok güçlü ve benzersiz parolalar kul
 
 ## File Encryption on Linux
 
-[OpenSSL](https://www.openssl.org/) güvenlik sertifikaları oluşturmak için kullanılabilir. OpenSSL kullanarak bir dosyayı şifrelemek için farklı [şifreler](https://www.openssl.org/docs/man1.1.1/man1/openssl-enc.html) seçebiliriz. Örnek olarak AES 256 kullanalım. Ayrıca varsayılan iterasyon sayılarını geçersiz kılabilir ve PBKDF2 algoritmasını kullanabiliriz. Enter tuşuna bastığımızda bir parola girmemiz gerekecek:
+[OpenSSL](https://www.openssl.org/) güvenlik sertifikaları oluşturmak için kullanılabilir. OpenSSL kullanarak bir dosyayı şifrelemek için farklı [şifreler](https://www.openssl.org/docs/man1.1.1/man1/openssl-enc.html) seçebiliriz. Örnek olarak AES 256 kullanalım. Ayrıca varsayılan iterasyon sayılarını geçersiz kılabilir ve PBKDF2 (Password-Based Key Derivation Function 2) algoritmasını kullanabiliriz. Enter tuşuna bastığımızda bir parola girmemiz gerekecek:
 
 ```bash
 openssl enc -aes256 -iter 100000 -pbkdf2 -in /etc/passwd -out passwd.enc

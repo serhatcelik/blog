@@ -6,7 +6,7 @@ search:
 
 # HTML Injection
 
-Çoğu durumda kullanıcı girdisinin doğrulanması ve sterilize edilmesi (sanitize) arka uç tarafında gerçekleştirilir. Ancak bazı kullanıcı girdileri, bazı durumlarda hiçbir zaman arka uç tarafına ulaşamaz ve tamamen ön uç tarafında işlenir. Bu nedenle hem ön uç hem de arka uç tarafında kullanıcı girdisinin doğrulanması ve sterilize edilmesi kritik öneme sahiptir.
+Çoğu durumda kullanıcı girdisinin doğrulanması ve sanitize edilmesi arka uç tarafında gerçekleştirilir. Ancak bazı kullanıcı girdileri, bazı durumlarda hiçbir zaman arka uç tarafına ulaşamaz ve tamamen ön uç tarafında işlenir. Bu nedenle hem ön uç hem de arka uç tarafında kullanıcı girdisinin doğrulanması ve sanitize edilmesi kritik öneme sahiptir.
 
 ```html title="index.html" linenums="1"
 <!DOCTYPE html>

@@ -8,7 +8,7 @@ search:
 
 Terminali açtığımızda shell isteminde gözüken `$` sembolü ayrıcalıksız kullanıcı hesabını temsil eder. Eğer `#` sembolü gözüküyorsa ayrıcalıklı `root` hesabını temsil eder.
 
-Shell isteminin nasıl gözükeceği PS1 değişkeni ile belirlenebilir. Bunun için bazı özel karakterler kullanılmaktadır:
+Shell isteminin nasıl gözükeceği PS1 (Prompt String 1) değişkeni ile belirlenebilir. Bunun için bazı özel karakterler kullanılmaktadır:
 
 | Special Character | Description |
 |:---|:---|
