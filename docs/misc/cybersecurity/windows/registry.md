@@ -7,7 +7,7 @@ search:
 
 Korumalı kayıt defteri anahtarlarını düzenlemek için aşağıdaki adımlar takip edilerek tam izin kontrolü alınabilir:
 
-1. İşlem yapılacak `Key` üzerinde ++right-button++ ve `Permissions...` seç.
+1. İşlem yapılacak `Key` üzerinde ++right-button++ --> `Permissions...` seç.
 2. Açılan pencerede `Advanced` tıkla.
 3. Açılan pencerede `Owner` kısmında `Change` tıkla.
 4. Açılan kutuya kullanıcı adını gir ve `Check Names` tıkla. Ardından `OK` bas ve çık.

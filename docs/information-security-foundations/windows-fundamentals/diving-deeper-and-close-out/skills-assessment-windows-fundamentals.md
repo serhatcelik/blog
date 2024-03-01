@@ -46,7 +46,7 @@ List the SID associated with the HR security group you created.
 
     Burada `Local Users and Groups` --> `Groups` yolunu takip et.
 
-    ++right-button++ ile `New Group...` seçeneğini seç ve `HR` isminde bir grup oluştur.
+    ++right-button++ --> `New Group...` seçeneğini seç ve `HR` isminde bir grup oluştur.
 
     Son olarak aşağıdaki komut ile SID bilgisini öğren:
 

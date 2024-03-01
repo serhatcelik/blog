@@ -197,7 +197,7 @@ Upgrade-Insecure-Requests: 1
 host=host&username=test'
 ```
 
-Bu sayfada ++right-button++ ve `Send to Repeater` ile bilgileri Burp Repeater sekmesine gönderdim. Ardından Burp Repeater sekmesine geçiş yaptım ve bu isteği `Send` ile tekrar gönderdim. Cevap olarak aşağıdaki bilgiler geldi:
+Bu sayfada ++right-button++ --> `Send to Repeater` ile bilgileri Burp Repeater sekmesine gönderdim. Ardından Burp Repeater sekmesine geçiş yaptım ve bu isteği `Send` ile tekrar gönderdim. Cevap olarak aşağıdaki bilgiler geldi:
 
 ```text title="Response"
 HTTP/1.1 302
@@ -274,7 +274,7 @@ $
 
 Bu sebeple `${IFS%??}` komutu, IFS değişkeninin sondan (`%`) iki karakterini (`??`) siler. Yani sonuç olarak sadece boşluk karakterini elde ederiz.
 
-Reverse shell kodunu Burp içerisinde bulunan `username` kısmına yapıştırdıktan sonra bu değeri seçip ++right-button++ ve `Convert selection` --> `URL` --> `URL-encode key characters` ile URL formatına uygun hale getirdim.
+Reverse shell kodunu Burp içerisinde bulunan `username` kısmına yapıştırdıktan sonra bu değeri seçip ++right-button++ --> `Convert selection` --> `URL` --> `URL-encode key characters` ile URL formatına uygun hale getirdim.
 
 !!! info "URL Encoding"
 
