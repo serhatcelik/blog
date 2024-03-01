@@ -1,4 +1,5 @@
 ---
+icon: material/multiplication
 search:
   exclude: true
 ---

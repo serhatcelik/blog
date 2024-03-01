@@ -8,4 +8,4 @@ search:
 
 | [![](assets/logo.svg){ .off-glb }](https://app.hackthebox.com/machines) |
 |:---|
-| Easy, medium, hard and insane machine write-ups. |
+| Machine write-ups. |
