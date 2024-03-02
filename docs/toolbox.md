@@ -336,6 +336,18 @@ search:
 
     Full-featured vulnerability scanner.
 
+* [XSSer](https://github.com/epsylon/xsser)
+
+    ---
+
+    An automatic -framework- to detect, exploit and report XSS vulnerabilities.
+
+* [XSStrike](https://github.com/s0md3v/XSStrike)
+
+    ---
+
+    Most advanced XSS scanner.
+
 </div>
 
 ## Web Application Analysis

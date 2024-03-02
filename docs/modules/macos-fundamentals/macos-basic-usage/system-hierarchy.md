@@ -8,7 +8,7 @@ search:
 
 ## MacOS Domains
 
-![](../assets/images/d-1.png)
+![](../assets/images/macos-domains.png)
 
 macOS dosya sistemi, dosyaları ve kaynakları kullanım amaçlarına göre ayıran birden çok alana bölünmüştür. Etki alanları, o etki alanındaki dosyalara ve kaynaklara erişim ayrıcalığını uygulayarak, yetkisiz kullanıcıların dosyaları değiştirmesini engeller.
 
@@ -21,7 +21,7 @@ macOS dosya sistemi, dosyaları ve kaynakları kullanım amaçlarına göre ayı
 
 ## macOS File System Structure
 
-![](../assets/images/d-2.png)
+![](../assets/images/macos-file-system-structure.png)
 
 ### Standard Directories
 

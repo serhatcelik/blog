@@ -94,7 +94,7 @@ markdown_extensions:
 - md_in_html
 - tables
 - toc:
-    permalink: true
+    permalink: "#"
     permalink_title: Kalıcı link
     toc_depth: 6
 - pymdownx.critic
