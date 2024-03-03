@@ -369,6 +369,8 @@ nav:
       - modules/macos-fundamentals/macos-basic-usage/networking.md
     - Extending macOS:
       - modules/macos-fundamentals/extending-macos/application-management.md
+  - Introduction to Python 3:
+    - modules/introduction-to-python-3/index.md
 - Write-Ups:
   - write-ups/index.md
   - Starting Point:
