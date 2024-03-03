@@ -48,6 +48,8 @@ search:
 
 * [![](assets/images/badges/990a5618-8fb4-11ee-bfb6-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/990a5618-8fb4-11ee-bfb6-bea50ffe6cb4)
 
+* [![](assets/images/badges/998f863b-d930-11ee-891c-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/998f863b-d930-11ee-891c-bea50ffe6cb4)
+
 * [![](assets/images/badges/af11ccba-a5b4-11ee-bfb6-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/af11ccba-a5b4-11ee-bfb6-bea50ffe6cb4)
 
 * [![](assets/images/badges/b1812fac-addf-11ee-bfb6-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/b1812fac-addf-11ee-bfb6-bea50ffe6cb4)
