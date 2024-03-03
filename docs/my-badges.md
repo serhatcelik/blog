@@ -16,6 +16,8 @@ search:
 
 * [![](assets/images/badges/2087433b-4ff3-11ee-acfc-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/2087433b-4ff3-11ee-acfc-bea50ffe6cb4)
 
+* [![](assets/images/badges/2776302c-d93a-11ee-891c-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/2776302c-d93a-11ee-891c-bea50ffe6cb4)
+
 * [![](assets/images/badges/2bd3fa0e-70c4-11ee-b5a6-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/2bd3fa0e-70c4-11ee-b5a6-bea50ffe6cb4)
 
 * [![](assets/images/badges/2bd573c7-70c4-11ee-b5a6-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/2bd573c7-70c4-11ee-b5a6-bea50ffe6cb4)
@@ -52,9 +54,13 @@ search:
 
 * [![](assets/images/badges/af11ccba-a5b4-11ee-bfb6-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/af11ccba-a5b4-11ee-bfb6-bea50ffe6cb4)
 
+* [![](assets/images/badges/b0a10e2e-d938-11ee-891c-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/b0a10e2e-d938-11ee-891c-bea50ffe6cb4)
+
 * [![](assets/images/badges/b1812fac-addf-11ee-bfb6-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/b1812fac-addf-11ee-bfb6-bea50ffe6cb4)
 
 * [![](assets/images/badges/b7b9e6d5-c416-11ee-891c-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/b7b9e6d5-c416-11ee-891c-bea50ffe6cb4)
+
+* [![](assets/images/badges/b8330608-d93d-11ee-891c-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/b8330608-d93d-11ee-891c-bea50ffe6cb4)
 
 * [![](assets/images/badges/bc4fc867-6086-11ee-aac4-bea50ffe6cb4.png){ .off-glb }](https://academy.hackthebox.com/achievement/badge/bc4fc867-6086-11ee-aac4-bea50ffe6cb4)
 
