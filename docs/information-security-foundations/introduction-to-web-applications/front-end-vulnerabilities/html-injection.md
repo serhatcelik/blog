@@ -30,7 +30,7 @@ search:
 </html>
 ```
 
-Yukarıdaki web sayfası verilen butona tıkladığımızda bizden ismimizi girmemizi istiyor ve girdiğimiz isme göre bir mesaj görüntülüyor. Kullanıcı girdisi kontrol edilmediğinden girdi kısmına herhangi bir HTML kod parçası yerleştirilebilir. Örneğin aşağıdaki kod parçası kullanıcı girdisi olarak verildiğinde sayfanın arka planı değişecektir:
+Yukarıdaki web sayfası, verilen butona tıkladığımızda bizden ismimizi girmemizi istiyor ve girdiğimiz isme göre bir mesaj görüntülüyor. Kullanıcı girdisi kontrol edilmediğinden girdi kısmına herhangi bir HTML kod parçası yerleştirilebilir. Örneğin aşağıdaki kod parçası kullanıcı girdisi olarak verildiğinde sayfanın arka planı değişecektir:
 
 ```html
 <style> body { background-image: url('https://academy.hackthebox.com/images/logo.svg'); } </style>
