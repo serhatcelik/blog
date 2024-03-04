@@ -1,6 +1,4 @@
 ---
-search:
-  boost: 2
 ---
 
 # SSH Key-based Authentication

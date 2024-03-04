@@ -1,7 +1,5 @@
 ---
 icon: material/toolbox
-search:
-  boost: 0.5
 ---
 
 # Toolbox

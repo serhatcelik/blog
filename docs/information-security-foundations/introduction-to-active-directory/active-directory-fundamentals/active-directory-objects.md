@@ -1,7 +1,5 @@
 ---
 icon: material/circle-small
-search:
-  boost: 2
 ---
 
 # Active Directory Objects

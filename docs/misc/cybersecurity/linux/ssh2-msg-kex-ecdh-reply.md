@@ -1,6 +1,4 @@
 ---
-search:
-  boost: 0.5
 ---
 
 # SSH2_MSG_KEX_ECDH_REPLY

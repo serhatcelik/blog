@@ -1,7 +1,5 @@
 ---
 icon: material/help
-search:
-  boost: 2
 ---
 
 # Interacting with the Windows Operating System

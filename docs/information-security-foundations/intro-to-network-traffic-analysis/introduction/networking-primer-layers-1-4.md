@@ -1,7 +1,5 @@
 ---
 icon: material/circle-small
-search:
-  boost: 0.5
 ---
 
 # Networking Primer - Layers 1-4
