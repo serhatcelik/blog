@@ -345,6 +345,8 @@ nav:
     - penetration-tester/using-web-proxies/index.md
   - Attacking Web Applications with Ffuf:
     - penetration-tester/attacking-web-applications-with-ffuf/index.md
+  - Login Brute Forcing:
+    - penetration-tester/login-brute-forcing/index.md
   - Cross-Site Scripting (XSS):
     - penetration-tester/cross-site-scripting-xss/index.md
 - Modules:

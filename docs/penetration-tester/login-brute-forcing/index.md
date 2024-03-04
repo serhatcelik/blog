@@ -1,9 +1,9 @@
 ---
-icon: material/key-variant
+icon: material/lock
 search:
   exclude: true
 ---
 
-# Password Attacks
+# Login Brute Forcing
 
 --8<-- "docs/tos.txt"
