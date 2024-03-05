@@ -1,6 +1,3 @@
----
----
-
 # SSH Key-based Authentication
 
 Daha fazla yardım için [Microsoft](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement) sitesine başvurabilirsiniz.

@@ -1,6 +1,3 @@
----
----
-
 # Dancing
 
 !!! info "Target IP Address"

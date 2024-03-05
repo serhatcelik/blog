@@ -1,6 +1,3 @@
----
----
-
 # Useful Shortcuts
 
 ## General Shortcuts

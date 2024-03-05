@@ -1,6 +1,3 @@
----
----
-
 # Dual Boot Time Synchronization
 
 ```bash

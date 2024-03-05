@@ -1,6 +1,3 @@
----
----
-
 # VirtualBox Guest Additions
 
 Gereklilikleri yükle (öncesinde tüm sistemi güncellemiş olmak tavsiye edilir):

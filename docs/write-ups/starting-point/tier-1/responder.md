@@ -1,6 +1,3 @@
----
----
-
 # Responder
 
 !!! info "Target IP Address"

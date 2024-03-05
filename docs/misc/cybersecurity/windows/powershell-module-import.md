@@ -1,6 +1,3 @@
----
----
-
 # PowerShell Module Import
 
 Aşağıdaki komutlardan herhangi birini kullanarak `profile.ps1` dosyasının konumunu öğren:

@@ -1,6 +1,3 @@
----
----
-
 # Windows Subsystem for Linux
 
 Yardımı görüntüle:

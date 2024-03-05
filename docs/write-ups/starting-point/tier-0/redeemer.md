@@ -1,6 +1,3 @@
----
----
-
 # Redeemer
 
 !!! info "Target IP Address"

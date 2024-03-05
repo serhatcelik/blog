@@ -1,6 +1,3 @@
----
----
-
 # Meow
 
 !!! info "Target IP Address"

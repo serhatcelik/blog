@@ -1,6 +1,3 @@
----
----
-
 # Devvortex
 
 ## User Flag

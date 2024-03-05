@@ -1,6 +1,3 @@
----
----
-
 # Tmux Basics
 
 ## What Is It?

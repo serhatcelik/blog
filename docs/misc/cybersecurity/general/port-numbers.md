@@ -1,6 +1,3 @@
----
----
-
 # Port Numbers
 
 ## Table Legend

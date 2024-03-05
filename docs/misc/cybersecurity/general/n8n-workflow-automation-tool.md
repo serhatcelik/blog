@@ -1,6 +1,3 @@
----
----
-
 # N8N Workflow Automation Tool
 
 Bu yazıda, iş akışı otomasyonu gerçekleştirmeye yarayan [N8N](https://n8n.io/) aracının [Docker](https://www.docker.com/) ile kullanımı anlatılmıştır. İşletim sistemi olarak Windows kullanılmıştır.

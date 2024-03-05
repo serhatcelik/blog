@@ -1,6 +1,3 @@
----
----
-
 # APT Incompatible with Kernel
 
 APT `full-upgrade` sırasında oluşabilecek örnek bir hata:

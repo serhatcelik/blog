@@ -1,6 +1,3 @@
----
----
-
 # Fawn
 
 !!! info "Target IP Address"

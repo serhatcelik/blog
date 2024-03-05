@@ -1,6 +1,3 @@
----
----
-
 # Crocodile
 
 !!! info "Target IP Address"

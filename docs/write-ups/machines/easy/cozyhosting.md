@@ -1,6 +1,3 @@
----
----
-
 # CozyHosting
 
 ## User Flag

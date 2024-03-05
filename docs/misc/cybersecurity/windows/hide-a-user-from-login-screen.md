@@ -1,6 +1,3 @@
----
----
-
 # Hide a User from Login Screen
 
 Regedit uygulamasında aşağıdaki konuma git:

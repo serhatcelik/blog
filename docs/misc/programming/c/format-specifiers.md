@@ -1,6 +1,3 @@
----
----
-
 # Format Specifiers
 
 | Format Specifier | Description | Supported Data Types |

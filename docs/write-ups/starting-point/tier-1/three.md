@@ -1,6 +1,3 @@
----
----
-
 # Three
 
 !!! info "Target IP Address"

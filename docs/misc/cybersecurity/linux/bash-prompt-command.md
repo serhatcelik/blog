@@ -1,6 +1,3 @@
----
----
-
 # Bash Prompt Command
 
 Bash shell üzerinde `PROMPT_COMMAND` değişkeni kullanılarak, PS1 gösterilmeden önce çalıştırılacak olan komut ayarlanabilir.

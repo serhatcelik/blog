@@ -1,6 +1,3 @@
----
----
-
 # VirtualBox DnD
 
 ```bash

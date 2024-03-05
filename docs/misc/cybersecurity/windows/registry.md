@@ -1,6 +1,3 @@
----
----
-
 # Registry
 
 Korumalı kayıt defteri anahtarlarını düzenlemek için aşağıdaki adımlar takip edilerek tam izin kontrolü alınabilir:

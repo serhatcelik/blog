@@ -1,6 +1,3 @@
----
----
-
 # Packaging Python Projects
 
 ## Test PyPI

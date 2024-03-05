@@ -1,6 +1,3 @@
----
----
-
 # SSH2_MSG_KEX_ECDH_REPLY
 
 SSH bağlantı denemesinde SSH tepki vermiyorsa, ilk önce `-v` parametresi ile bağlantı detaylarını görüntüle:

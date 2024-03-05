@@ -1,6 +1,3 @@
----
----
-
 # Sequel
 
 !!! info "Target IP Address"

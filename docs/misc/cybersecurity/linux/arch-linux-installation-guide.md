@@ -1,6 +1,3 @@
----
----
-
 # Arch Linux Installation Guide
 
 !!! tip "Archinstall"
