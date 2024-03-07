@@ -621,7 +621,7 @@ passwd
 
     Bu kısım, UEFI sistemler içindir.
 
-    [Atla](#boot-loader-for-non-uefi-systems){ .md-button }
+    [Atla](#bootloader-for-non-uefi-systems){ .md-button }
 
 Aşağıdaki komut ile GRUB paketlerini indir:
 
