@@ -9,7 +9,7 @@ Web uygulamaları dosya aktarmaya ihtiyaç duyduğunda POST isteklerini kullanı
 ## Login Forms
 
 ```bash
-curl -i -X POST -d 'username=admin&password=admin' http://<SERVER_IP>:<PORT>/
+curl -i -X POST -d 'username=admin&password=admin' http://<SERVER_IP_ADDRESS>:<PORT>/
 ```
 
 ```text title="Output"
@@ -28,13 +28,13 @@ Elde edilen kimliği doğrulanmış çerezler sayesinde, her seferinde kimlik bi
 Cookie kullanarak kimlik doğrula:
 
 ```bash
-curl -b 'PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP>:<PORT>/
+curl -b 'PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP_ADDRESS>:<PORT>/
 ```
 
 Header ile Cookie ayarla:
 
 ```bash
-curl -H 'Cookie: PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP>:<PORT>/
+curl -H 'Cookie: PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP_ADDRESS>:<PORT>/
 ```
 
 ## JSON Data
@@ -42,7 +42,7 @@ curl -H 'Cookie: PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP>:<PORT>
 JSON tipinde veri göndermek ve karşılığında yanıt almak için:
 
 ```bash
-curl -X POST -d '{"search":"london"}' -H 'Content-Type: application/json' -b 'PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP>:<PORT>/search.php
+curl -X POST -d '{"search":"london"}' -H 'Content-Type: application/json' -b 'PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP_ADDRESS>:<PORT>/search.php
 ```
 
 ## Questions

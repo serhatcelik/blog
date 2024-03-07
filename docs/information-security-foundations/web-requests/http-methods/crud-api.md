@@ -24,19 +24,19 @@ Genel olarak CRUD API, talep edilen veri tabanı varlığı üzerinde 4 ana işl
 API üzerinden, city tablosundan, tüm sonuçları getir:
 
 ```bash
-curl http://<SERVER_IP>:<PORT>/api.php/city/
+curl http://<SERVER_IP_ADDRESS>:<PORT>/api.php/city/
 ```
 
 API üzerinden, city tablosundan, London araması gerçekleştir:
 
 ```bash
-curl http://<SERVER_IP>:<PORT>/api.php/city/London
+curl http://<SERVER_IP_ADDRESS>:<PORT>/api.php/city/London
 ```
 
 JSON çıktısını güzelleştir:
 
 ```bash
-curl -s http://<SERVER_IP>:<PORT>/api.php/city/London | jq
+curl -s http://<SERVER_IP_ADDRESS>:<PORT>/api.php/city/London | jq
 ```
 
 ### Create
@@ -44,7 +44,7 @@ curl -s http://<SERVER_IP>:<PORT>/api.php/city/London | jq
 Istanbul şehrini ekle:
 
 ```bash
-curl -X POST http://<SERVER_IP>:<PORT>/api.php/city/ -H 'Content-Type: application/json' -d '{"city_name":"Istanbul", "country_name":"(TR)"}'
+curl -X POST http://<SERVER_IP_ADDRESS>:<PORT>/api.php/city/ -H 'Content-Type: application/json' -d '{"city_name":"Istanbul", "country_name":"(TR)"}'
 ```
 
 ### Update
@@ -54,7 +54,7 @@ PUT, API girişlerini güncellemek ve ayrıntılarını değiştirmek için kull
 Istanbul şehrinin adını, Malatya olarak değiştir:
 
 ```bash
-curl -X PUT http://<SERVER_IP>:<PORT>/api.php/city/Istanbul -H 'Content-Type: application/json' -d '{"city_name":"Malatya", "country_name":"(TR)"}'
+curl -X PUT http://<SERVER_IP_ADDRESS>:<PORT>/api.php/city/Istanbul -H 'Content-Type: application/json' -d '{"city_name":"Malatya", "country_name":"(TR)"}'
 ```
 
 Bazı API servislerinde UPDATE, yeni girişler oluşturmak için de kullanılabilir. Gönderilen veri kontrol edilir ve mevcut değilse oluşturulur.
@@ -64,7 +64,7 @@ Bazı API servislerinde UPDATE, yeni girişler oluşturmak için de kullanılabi
 Malatya şehrini sil:
 
 ```bash
-curl -X DELETE http://<SERVER_IP>:<PORT>/api.php/city/Malatya
+curl -X DELETE http://<SERVER_IP_ADDRESS>:<PORT>/api.php/city/Malatya
 ```
 
 ## Questions

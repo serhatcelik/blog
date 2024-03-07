@@ -13,7 +13,7 @@ Kullanıcı kimlik bilgilerini doğrulamak amacıyla HTTP parametrelerini (POST)
 Yanıt başlıklarını talep et:
 
 ```bash
-curl -i http://<SERVER_IP>:<PORT>/
+curl -i http://<SERVER_IP_ADDRESS>:<PORT>/
 ```
 
 ```text title="Output"
@@ -35,21 +35,21 @@ Access denied
 Kullanıcı adı ve parola ayarla:
 
 ```bash
-curl -v -u admin:admin http://<SERVER_IP>:<PORT>/
+curl -v -u admin:admin http://<SERVER_IP_ADDRESS>:<PORT>/
 ```
 
 URL User Info ile kullanıcı adı ve parola ayarla:
 
 ```bash
-curl -v http://admin:admin@<SERVER_IP>:<PORT>/
+curl -v http://admin:admin@<SERVER_IP_ADDRESS>:<PORT>/
 ```
 
 ```text title="Output"
-*   Trying <SERVER_IP>:<PORT>...
-* Connected to <SERVER_IP> (<SERVER_IP>) port PORT (#0)
+*   Trying <SERVER_IP_ADDRESS>:<PORT>...
+* Connected to <SERVER_IP_ADDRESS> (<SERVER_IP_ADDRESS>) port PORT (#0)
 * Server auth using Basic with user 'admin'
 > GET / HTTP/1.1
-> Host: <SERVER_IP>
+> Host: <SERVER_IP_ADDRESS>
 > Authorization: Basic YWRtaW46YWRtaW4=
 > User-Agent: curl/7.77.0
 > Accept: */*
@@ -60,7 +60,7 @@ curl -v http://admin:admin@<SERVER_IP>:<PORT>/
 Çıktıda görülen `Basic` kısmı, verilen kimlik bilgilerinin Base64 ile kodlanmış halidir. Kullanıcı adı ve parola vermeden direkt bu değer ile kimlik denetimi gerçekleştirebiliriz:
 
 ```bash
-curl -H 'Authorization: Basic YWRtaW46YWRtaW4=' http://<SERVER_IP>:<PORT>/
+curl -H 'Authorization: Basic YWRtaW46YWRtaW4=' http://<SERVER_IP_ADDRESS>:<PORT>/
 ```
 
 ## GET Parameters
