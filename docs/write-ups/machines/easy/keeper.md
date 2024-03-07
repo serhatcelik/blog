@@ -43,11 +43,11 @@ Ardından aşağıdaki adresleri `/etc/hosts` dosyasına ekledim:
 echo -e "10.10.11.227 keeper.htb\n10.10.11.227 tickets.keeper.htb" | sudo tee -a /etc/hosts
 ```
 
-Mesajda bahsedilen adrese gittiğimde bir Login sayfasıyla karşılaştım:
+Mesajda bahsedilen adrese gittiğimde bir giriş sayfasıyla karşılaştım:
 
 ![](../assets/images/keeper/rt-login-page.png)
 
-Kısa bir Google aramasından sonra Request Tracker [wiki](https://rt-wiki.bestpractical.com/wiki/ManualBasicAdministration#CREATE_USERS) adresinde, sisteme girişte kullanılan varsayılan kullanıcı adı (`root`) ve varsayılan parola (`password`) bilgisini öğrendim ve bu bilgileri kullanarak Login gerçekleştirebildim:
+Kısa bir Google aramasından sonra Request Tracker [wiki](https://rt-wiki.bestpractical.com/wiki/ManualBasicAdministration#CREATE_USERS) adresinde, sisteme girişte kullanılan varsayılan kullanıcı adı (`root`) ve varsayılan parola (`password`) bilgisini öğrendim ve bu bilgileri kullanarak giriş gerçekleştirebildim:
 
 ![](../assets/images/keeper/rt-at-a-glance.png)
 

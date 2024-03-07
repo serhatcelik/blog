@@ -22,7 +22,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 3.43 seconds
 ```
 
-Web tarayıcısında [http://10.129.219.149](http://10.129.219.149) adresine git. Login formunda kullanıcı adı kısmına `admin'#` ve parola kısmına boşluk olmayan herhangi bir karakter gir.
+Web tarayıcısında [http://10.129.219.149](http://10.129.219.149) adresine git. Giriş formunda kullanıcı adı kısmına `admin'#` ve parola kısmına boşluk olmayan herhangi bir karakter gir.
 
 Kullanıcı adı kısmına girilen bu değer sayesinde yanlış parola ile dahi giriş yapılabilir. Çünkü kullanıcı girdisini doğru şekilde kontrol etmeyen bir PHP kodu aşağıdaki gibi gözükebilir:
 
@@ -43,4 +43,4 @@ Kullanıcı adı olarak `admin'#` değeri verildiğinde SQL satırı aşağıdak
 $sql="SELECT * FROM users WHERE username='admin'# AND password='$password'";
 ```
 
-Bu sorgu hatasız çalışacağından `$count` değişkenin değeri `1` olur ve Login başarılı olur.
+Bu sorgu hatasız çalışacağından `$count` değişkenin değeri `1` olur ve giriş başarılı olur.

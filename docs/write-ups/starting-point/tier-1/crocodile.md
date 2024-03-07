@@ -75,4 +75,4 @@ Starting gobuster in directory enumeration mode
 ...SNIP...
 ```
 
-Elde edilen tüm bilgileri kullanarak [http://10.129.39.65/login.php](http://10.129.39.65/login.php) adresindeki Login formunu doldur ve bayrağı ele geçir.
+Elde edilen tüm bilgileri kullanarak [http://10.129.39.65/login.php](http://10.129.39.65/login.php) adresindeki giriş formunu doldur ve bayrağı ele geçir.
