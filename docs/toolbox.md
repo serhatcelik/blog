@@ -74,11 +74,29 @@ icon: material/toolbox
 
     A custom word list generator.
 
+* [CUPP](https://github.com/Mebus/cupp)
+
+    ---
+
+     Common User Passwords Profiler (CUPP).
+
 * [LaZagne](https://github.com/AlessandroZ/LaZagne)
 
     ---
 
     Credentials recovery project.
+
+* [Mentalist](https://github.com/sc0tfree/mentalist)
+
+    ---
+
+    Mentalist is a graphical tool for custom wordlist generation.
+
+* [RSMangler](https://github.com/digininja/RSMangler)
+
+    ---
+
+    Take a wordlist and perform various manipulations on it.
 
 * [Username Anarchy](https://github.com/urbanadventurer/username-anarchy)
 
