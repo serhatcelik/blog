@@ -8,7 +8,7 @@ HTTP GET kullanıldığında kullanıcı parametreleri URL içine yerleştirilir
 
 ## HTTP Basic Auth
 
-Kullanıcı kimlik bilgilerini doğrulamak amacıyla HTTP parametrelerini (POST) kullanan oturum açma formlarının aksine, belirli bir sayfayı/dizini korumak için, web uygulaması ile etkileşime girmeden doğrudan web sunucusu tarafından işlenen temel bir HTTP kimlik doğrulamasıdır.
+Kullanıcı kimlik bilgilerini doğrulamak amacıyla HTTP POST parametrelerini kullanan oturum açma formlarının aksine, belirli bir sayfayı/dizini korumak için, web uygulaması ile etkileşime girmeden doğrudan web sunucusu tarafından işlenen temel bir HTTP kimlik doğrulamasıdır.
 
 Yanıt başlıklarını talep et:
 
