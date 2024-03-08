@@ -173,17 +173,17 @@ hide:
 
 <div class="grid cards" markdown>
 
-* [tcpdump](https://www.tcpdump.org/)
-
-    ---
-
-    Dump traffic on a network.
-
 * [Nmap](https://nmap.org/)
 
     ---
 
     Network discovery and security auditing.
+
+* [tcpdump](https://www.tcpdump.org/)
+
+    ---
+
+    Dump traffic on a network.
 
 * [Wireshark](https://www.wireshark.org/)
 
@@ -227,17 +227,17 @@ hide:
 
     A tool for enumerating information from Windows and Samba systems.
 
-* [SMBMap](https://github.com/ShawnDEvans/smbmap)
-
-    ---
-
-    Enumerate Samba share drives across an entire domain.
-
 * [smbclient](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html)
 
     ---
 
     FTP-like client to access SMB/CIFS resources on servers.
+
+* [SMBMap](https://github.com/ShawnDEvans/smbmap)
+
+    ---
+
+    Enumerate Samba share drives across an entire domain.
 
 </div>
 
