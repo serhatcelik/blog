@@ -29,14 +29,14 @@ hide:
 | 88 | Kerberos authentication system | {++Yes++} | {++Yes++} |
 | 110 | POP3 | {++Yes++} | {--Assigned--} |
 | 111 | ONC-RPC/SUN-RPC | {++Yes++} | {++Yes++} |
-| 137 | NetBIOS Name Service | {++Yes++} | {++Yes++} |
-| 138 | NetBIOS Datagram Service | {--Assigned--} | {++Yes++} |
-| 139 | NetBIOS Session Service | {++Yes++} | {--Assigned--} |
+| 137 | NetBIOS Name Service, SMB with UDP | {++Yes++} | {++Yes++} |
+| 138 | NetBIOS Datagram Service, SMB with UDP | {--Assigned--} | {++Yes++} |
+| 139 | NetBIOS Session Service, SMB on top of NBT (NetBIOS over TCP/IP) | {++Yes++} | {--Assigned--} |
 | 143 | IMAP | {++Yes++} | {--Assigned--} |
 | 161 | SNMP | {--Assigned--} | {++Yes++} |
 | 162 | SNMPTRAP | {++Yes++} | {++Yes++} |
 | 443 | HTTPS | {++Yes++} | {++Yes++} |
-| 445 | SMB | {++Yes++} | {--Assigned--} |
+| 445 | SMB directly over TCP/IP | {++Yes++} | {--Assigned--} |
 | 623 | IPMI Remote Management Protocol | {++Yes++} ||
 | 993 | IMAPS | {++Yes++} | {--Assigned--} |
 | 995 | POP3S | {++Yes++} | {++Yes++} |
