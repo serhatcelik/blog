@@ -227,6 +227,12 @@ hide:
 
     A tool for enumerating information from Windows and Samba systems.
 
+* [Responder](https://github.com/lgandx/Responder)
+
+    ---
+
+    HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2.
+
 * [smbclient](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html)
 
     ---

@@ -55,7 +55,7 @@ Burada 10.0.2.5 adresi `shared` klasörünü paylaşıma açtığımız bilgisay
 
 ## Mount NFS Share
 
-NFS share oluşturduktan sonra 10.0.2.4 makinesinde bulunan `shared` klasörüne erişim sağlayabiliriz. Bunun için öncelikle `shared` klasörünü mount etmeliyiz:
+NFS Share oluşturduktan sonra 10.0.2.4 makinesinde bulunan `shared` klasörüne erişim sağlayabiliriz. Bunun için öncelikle `shared` klasörünü mount etmeliyiz:
 
 ```bash
 mkdir ~/target_nfs && mount 10.0.2.4:/home/estus/shared ~/target_nfs
