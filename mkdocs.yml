@@ -74,11 +74,14 @@ plugins:
 
 extra:
   alternate:
-  - name: Toolbox
-    link: /toolbox.html
+  - name: Port Numbers
+    link: /cheat-sheets/port-numbers.html
     lang: tr
-  - name: My Badges
-    link: /my-badges.html
+  - name: Toolbox
+    link: /cheat-sheets/toolbox.html
+    lang: tr
+  - name: Useful Shortcuts
+    link: /cheat-sheets/useful-shortcuts.html
     lang: tr
   generator: true
   homepage: index.html
@@ -130,12 +133,14 @@ watch:
 - overrides
 
 not_in_nav: |
-  /my-badges.md
-  /toolbox.md
+  /cheat-sheets/port-numbers.md
+  /cheat-sheets/toolbox.md
+  /cheat-sheets/useful-shortcuts.md
 
 nav:
 - Home:
   - index.md
+  - my-badges.md
 - Information Security Foundations:
   - information-security-foundations/index.md
   - Introduction to Academy:
@@ -415,8 +420,6 @@ nav:
     - misc/cybersecurity/index.md
     - General:
       - misc/cybersecurity/general/n8n-workflow-automation-tool.md
-      - misc/cybersecurity/general/port-numbers.md
-      - misc/cybersecurity/general/useful-shortcuts.md
     - Linux:
       - misc/cybersecurity/linux/apt-incompatible-with-kernel.md
       - misc/cybersecurity/linux/arch-linux-installation-guide.md

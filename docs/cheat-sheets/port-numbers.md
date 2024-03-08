@@ -1,3 +1,8 @@
+---
+hide:
+- navigation
+---
+
 # Port Numbers
 
 ## Table Legend

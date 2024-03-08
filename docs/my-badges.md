@@ -1,7 +1,5 @@
 ---
-hide:
-- navigation
-- toc
+icon: material/star
 search:
   exclude: true
 ---
