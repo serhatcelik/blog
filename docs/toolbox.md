@@ -299,6 +299,12 @@ hide:
 
     Advanced offline password cracker.
 
+* [Medusa](https://github.com/jmk-foofus/medusa)
+
+    ---
+
+    Medusa is a speedy, parallel, and modular, login brute-forcer.
+
 </div>
 
 ## Post Exploitation

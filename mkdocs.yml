@@ -74,12 +74,12 @@ plugins:
 
 extra:
   alternate:
-    - name: Toolbox
-      link: /toolbox.html
-      lang: tr
-    - name: My Badges
-      link: /my-badges.html
-      lang: tr
+  - name: Toolbox
+    link: /toolbox.html
+    lang: tr
+  - name: My Badges
+    link: /my-badges.html
+    lang: tr
   generator: true
   homepage: index.html
   social:
