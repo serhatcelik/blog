@@ -56,6 +56,8 @@ theme:
     code: IBM Plex Mono
   favicon: assets/favicon.png
   logo: assets/avatar.png
+  icon:
+    alternate: material/view-module
 
 plugins:
 - glightbox:
@@ -71,6 +73,13 @@ plugins:
 - search
 
 extra:
+  alternate:
+    - name: Toolbox
+      link: /toolbox.html
+      lang: tr
+    - name: My Badges
+      link: /my-badges.html
+      lang: tr
   generator: true
   homepage: index.html
   social:
@@ -120,11 +129,13 @@ markdown_extensions:
 watch:
 - overrides
 
+not_in_nav: |
+  /my-badges.md
+  /toolbox.md
+
 nav:
 - Home:
   - index.md
-  - toolbox.md
-  - my-badges.md
 - Information Security Foundations:
   - information-security-foundations/index.md
   - Introduction to Academy:

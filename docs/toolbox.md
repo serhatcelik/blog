@@ -1,5 +1,6 @@
 ---
-icon: material/toolbox
+hide:
+- navigation
 ---
 
 # Toolbox
