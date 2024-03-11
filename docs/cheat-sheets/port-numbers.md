@@ -46,7 +46,8 @@ hide:
 | Port | Service/Protocol/Application | TCP | UDP |
 |:---|:---|:---|:---|
 | 1080 | SOCKS proxy | {++Yes++} | {++Yes++} |
-| 1433 | MSSQL Server database management system | {++Yes++} | {++Yes++} |
+| 1433 | MSSQL Server database management system (MSSQL) server | {++Yes++} | {++Yes++} |
+| 1434 | MSSQL Server database management system (MSSQL) monitor | {++Yes++} | {++Yes++} |
 | 2049 | NFS | {++Yes++} | {++Yes++} |
 | 3020 | CIFS | {++Yes++} | {++Yes++} |
 | 3306 | MySQL database system | {++Yes++} | {--Assigned--} |
