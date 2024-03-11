@@ -10,9 +10,9 @@ Linux sistemlerindeki tüm izin sistemi sekizli sayı sistemine dayanmaktadır v
 2. Write
 3. Execute (traverse for directories)
 
-| File type | Owner | Group | Others | Number of hard links | User | Group | File size | Date |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| `-` | `rwx` | `rw-` | `r--` | `1` | `root` | `root` | `1641` | `May  4 23:41` |
+| File type | Owner | Group | Others | Number of hard links | User | Group | File size | Date | File name |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| `-` | `rwx` | `rw-` | `r--` | `1` | `root` | `root` | `1641` | `May  4 23:41` | `test.sh` |
 
 ## Change Permissions
 
