@@ -387,7 +387,7 @@ nav:
       - modules/macos-fundamentals/macos-basic-usage/graphical-user-interface.md
       - modules/macos-fundamentals/macos-basic-usage/system-hierarchy.md
       - modules/macos-fundamentals/macos-basic-usage/networking.md
-    - Extending macOS:
+    - Extending MacOS:
       - modules/macos-fundamentals/extending-macos/application-management.md
   - Introduction to Python 3:
     - modules/introduction-to-python-3/index.md
