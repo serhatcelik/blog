@@ -6,6 +6,10 @@ Sorunu çözmek için character tipinde (`c`) bir cihaz oluşturmak gerekebilir.
 sudo mknod /dev/net/tun c 10 200
 ```
 
+!!! info "Non-Permanent"
+
+    Yapılan değişiklikler kalıcı değildir, sistem yeniden başlatıldığında oluşturulan cihaz yok olacaktır.
+
 | Command | Description |
 |:---|:---|
 | `/dev/net/tun` | Oluşturulacak cihazın ismi. |
@@ -24,7 +28,3 @@ Major ve minor numaralarını incelemek için [bu](https://www.kernel.org/doc/Do
 | Major number (10) | Minor number (200) |
 |:---|:---|
 | Non-serial mice, misc features | TAP/TUN network device |
-
-!!! info "Non-Permanent"
-
-    Yapılan değişiklikler kalıcı değildir, sistem yeniden başlatıldığında oluşturulan cihaz yok olacaktır.
