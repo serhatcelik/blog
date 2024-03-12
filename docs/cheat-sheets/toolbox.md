@@ -281,6 +281,12 @@ hide:
 
 <div class="grid cards" markdown>
 
+* [Crowbar](https://github.com/galkan/crowbar)
+
+    ---
+
+    Brute forcing tool developed to support protocols that are not currently supported by popular brute forcing tools.
+
 * [Firefox Decrypt](https://github.com/unode/firefox_decrypt)
 
     ---

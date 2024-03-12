@@ -8,12 +8,12 @@ sudo mknod /dev/net/tun c 10 200
 
 | Command | Description |
 |:---|:---|
-| `/dev/net/tun` | Oluşturulacak dosyanın ismi. |
-| `c` | Oluşturulacak dosyanın tipi. |
-| `10` | Oluşturulacak dosyanın major numarası. |
-| `200` | Oluşturulacak dosyanın minor numarası. |
+| `/dev/net/tun` | Oluşturulacak cihazın ismi. |
+| `c` | Oluşturulacak cihazın tipi. |
+| `10` | Oluşturulacak cihazın major numarası. |
+| `200` | Oluşturulacak cihazın minor numarası. |
 
-Oluşturulan dosyanın niteliklerini kontrol edelim:
+Oluşturulan cihazın niteliklerini kontrol edelim:
 
 | File type | Owner | Group | Others | Number of hard links | User | Group | Major number | Minor number | Date | File name |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
@@ -24,3 +24,7 @@ Major ve minor numaralarını incelemek için [bu](https://www.kernel.org/doc/Do
 | Major number (10) | Minor number (200) |
 |:---|:---|
 | Non-serial mice, misc features | TAP/TUN network device |
+
+!!! info "Non-Permanent"
+
+    Yapılan değişiklikler kalıcı değildir, sistem yeniden başlatıldığında oluşturulan cihaz yok olacaktır.

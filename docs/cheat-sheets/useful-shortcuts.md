@@ -39,8 +39,10 @@ hide:
 | ++control+l++ | Terminali kısmen temizle. |
 | ++control+d++ | STDIN Pipe (End-of-File/End-of-Transmission) kapat. |
 | ++control+r++ | Komut geçmişinde arama yap. |
+| ++control+w++ | İmleçten önceki kelimeyi sil. |
 | ++control+u++ | İmleçten başa kadar olan kısmı sil. |
 | ++control+k++ | İmleçten sona kadar olan kısmı sil. |
+| ++control+y++ | Silinen metni yapıştır. |
 
 ## Web Browser Shortcuts
 
