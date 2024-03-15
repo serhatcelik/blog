@@ -424,6 +424,7 @@ nav:
       - misc/cybersecurity/linux/apt-incompatible-with-kernel.md
       - misc/cybersecurity/linux/arch-linux-installation-guide.md
       - misc/cybersecurity/linux/bash-prompt-command.md
+      - misc/cybersecurity/linux/bluetooth.md
       - misc/cybersecurity/linux/dual-boot-time-synchronization.md
       - misc/cybersecurity/linux/open-vpn-tun-tap-error.md
       - misc/cybersecurity/linux/ssh2-msg-kex-ecdh-reply.md
