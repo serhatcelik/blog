@@ -47,7 +47,7 @@ Mesajda bahsedilen adrese gittiğimde bir giriş sayfasıyla karşılaştım:
 
 ![](../assets/images/keeper/rt-login-page.png)
 
-Kısa bir Google aramasından sonra Request Tracker [wiki](https://rt-wiki.bestpractical.com/wiki/ManualBasicAdministration#CREATE_USERS) adresinde, sisteme girişte kullanılan varsayılan kullanıcı adı (`root`) ve varsayılan parola (`password`) bilgisini öğrendim ve bu bilgileri kullanarak giriş gerçekleştirebildim:
+Kısa bir Google aramasından sonra Request Tracker [wiki](https://rt-wiki.bestpractical.com/wiki/ManualBasicAdministration#CREATE_USERS) adresinde, sisteme girişte kullanılan varsayılan kullanıcı adı (`root`) ve varsayılan parola bilgisini (`password`) öğrendim ve bu bilgileri kullanarak giriş gerçekleştirebildim:
 
 ![](../assets/images/keeper/rt-at-a-glance.png)
 
@@ -59,7 +59,7 @@ Aynı ekranda `Admin` --> `Users` sekmesinde Lise Nørgaard kullanıcısının b
 
 ![](../assets/images/keeper/user-password.png)
 
-Elde ettiğim kullanıcı adı (`lnorgaard`) ve parola (`Welcome2023!`) bilgisi ile bir SSH bağlantısı gerçekleştirdim:
+Elde ettiğim kullanıcı adı (`lnorgaard`) ve parola bilgisi (`Welcome2023!`) ile bir SSH bağlantısı gerçekleştirdim:
 
 ```bash
 ssh lnorgaard@10.10.11.227
