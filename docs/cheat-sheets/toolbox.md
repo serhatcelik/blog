@@ -137,11 +137,29 @@ hide:
 
     A perl script that enumerates DNS information.
 
+* [Fierce](https://github.com/mschwager/fierce)
+
+    ---
+
+    A DNS reconnaissance tool for locating non-contiguous IP space.
+
 * [Gobuster](https://github.com/OJ/gobuster)
 
     ---
 
     Directory/File, DNS and vHost busting tool written in Go.
+
+* [SubBrute](https://github.com/TheRook/subbrute)
+
+    ---
+
+    A DNS meta-query spider that enumerates DNS records, and subdomains.
+
+* [Subfinder](https://github.com/projectdiscovery/subfinder)
+
+    ---
+
+    Fast passive subdomain enumeration tool.
 
 </div>
 
