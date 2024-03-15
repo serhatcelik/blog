@@ -51,7 +51,7 @@ Kısa bir Google aramasından sonra Request Tracker [wiki](https://rt-wiki.bestp
 
 ![](../assets/images/keeper/rt-at-a-glance.png)
 
-Bu ekranda `Search` --> `Tickets` --> `Recently Viewed` sekmesinde `#300000: Issue with Keepass Client on Windows` isimli bir Ticket ile karşılaştım. Bu Ticket içeriğine baktığımda, Lise Nørgaard (`lnorgaard`) isimli bir kullanıcının KeePass yazılımı hakkındaki bir e-mail konuşmasına rastladım:
+Bu ekranda `Search` --> `Tickets` --> `Recently Viewed` sekmesinde `#300000: Issue with Keepass Client on Windows` isimli bir Ticket ile karşılaştım. Bu Ticket içeriğine baktığımda, Lise Nørgaard (`lnorgaard`) isimli bir kullanıcının KeePass yazılımı hakkındaki bir e-posta konuşmasına rastladım:
 
 ![](../assets/images/keeper/ticket-300000.png)
 

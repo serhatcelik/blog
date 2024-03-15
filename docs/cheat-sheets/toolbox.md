@@ -335,6 +335,12 @@ hide:
 
     Medusa is a speedy, parallel, and modular, login brute-forcer.
 
+* [o365spray](https://github.com/0xZDH/o365spray)
+
+    ---
+
+     Username enumeration and password spraying tool aimed at Microsoft O365.
+
 </div>
 
 ## Post Exploitation
