@@ -421,6 +421,7 @@ nav:
     - General:
       - misc/cybersecurity/general/n8n-workflow-automation-tool.md
     - Linux:
+      - misc/cybersecurity/linux/add-windows-to-grub-menu.md
       - misc/cybersecurity/linux/apt-incompatible-with-kernel.md
       - misc/cybersecurity/linux/arch-linux-installation-guide.md
       - misc/cybersecurity/linux/bash-prompt-command.md
