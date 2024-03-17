@@ -73,7 +73,7 @@ cat ~/user.txt
 
 ## Root Flag
 
-SSH bağlantısı gerçekleştirdiğim kullanıcının ev dizininde `#!bash ls` komutunu çalıştırdığımda, bayrak dosyası dışında bir ZIP dosyası ile karşılaştım:
+SSH bağlantısı gerçekleştirdiğim kullanıcının ev dizininde `ls` komutunu çalıştırdığımda, bayrak dosyası dışında bir ZIP dosyası ile karşılaştım:
 
 ```bash
 ls
@@ -105,7 +105,7 @@ passcodes.kdbx: Keepass password database 2.x KDB
 
 Kısa bir Google aramasından sonra, KeePass Dump dosyasından ana parolayı elde etmeyi sağlayan bir [PoC](https://github.com/vdohney/keepass-password-dumper) ile karşılaştım.
 
-Bu kodu kullanabilmek için `#!bash dotnet` aracı da gerekiyordu, bu sebeple [bu](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.405-linux-x64-binaries) siteden yardım alarak ilk önce bu aracın kurulumunu gerçekleştirdim.
+Bu kodu kullanabilmek için `dotnet` aracı da gerekiyordu, bu sebeple [bu](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.405-linux-x64-binaries) siteden yardım alarak ilk önce bu aracın kurulumunu gerçekleştirdim.
 
 Ardından PoC kodunu repodan bilgisayarıma klonlayıp, klonlanan dizine geçiş yaptım (gerekli):
 

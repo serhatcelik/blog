@@ -33,7 +33,7 @@ Chocolatey paket yöneticisini kullanarak Windows makinemiz için bazı faydalı
 choco install python git wsl2 openssh openvpn microsoft-windows-terminal
 ```
 
-Kurulumların ardından PowerShell ve çevre değişkenlerini güncellemek için `#!powershell RefreshEnv` komutunu kullanabiliriz:
+Kurulumların ardından PowerShell ve çevre değişkenlerini güncellemek için `RefreshEnv` komutunu kullanabiliriz:
 
 ```powershell
 RefreshEnv

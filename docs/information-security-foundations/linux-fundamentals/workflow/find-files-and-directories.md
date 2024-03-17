@@ -6,7 +6,7 @@ icon: material/help
 
 ## Find
 
-Aşağıda, sistemde arama yapmak için kullanılan araçlardan biri olan `#!bash find` aracına ait örnek bir komut verilmiştir:
+Aşağıda, sistemde arama yapmak için kullanılan araçlardan biri olan `find` aracına ait örnek bir komut verilmiştir:
 
 ```bash
 find / -type f -name "*.conf" -size +20k -exec ls -al {} \; 2> /dev/null
@@ -14,7 +14,7 @@ find / -type f -name "*.conf" -size +20k -exec ls -al {} \; 2> /dev/null
 
 | Command | Description |
 |:---|:---|
-| `#!bash find` | Dizin hiyerarşisinde dosyaları aramaya yarar. |
+| `find` | Dizin hiyerarşisinde dosyaları aramaya yarar. |
 | `-type f` | Aranan dosyaların tipi belirtilir. Burada `f` file anlamına gelir. |
 | `-name "*.conf"` | Aranan dosyaların adı belirtilir. Burada .conf uzantısına sahip olan dosyalar anlamına gelir. |
 | `-size +20k` | Aranan dosyaların boyutu belirtilir. Burada 20 KiB boyutundan daha büyük olan dosyalar anlamına gelir. |
@@ -23,7 +23,7 @@ find / -type f -name "*.conf" -size +20k -exec ls -al {} \; 2> /dev/null
 
 ## Locate
 
-Arama yapmak için kullanılan diğer bir araç `#!bash locate` isimli araçtır. Bu araç sistemde arama yapmanın daha hızlı bir yolunu sunar ve `#!bash find` aracının aksine, mevcut dosya ve klasörlerle ilgili tüm bilgileri içeren yerel bir veri tabanıyla çalışır. Veri tabanını aşağıdaki komutla güncelleyebiliriz:
+Arama yapmak için kullanılan diğer bir araç `locate` isimli araçtır. Bu araç sistemde arama yapmanın daha hızlı bir yolunu sunar ve `find` aracının aksine, mevcut dosya ve klasörlerle ilgili tüm bilgileri içeren yerel bir veri tabanıyla çalışır. Veri tabanını aşağıdaki komutla güncelleyebiliriz:
 
 ```bash
 sudo updatedb

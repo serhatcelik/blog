@@ -6,7 +6,7 @@ icon: material/help
 
 ## Cut
 
-Aşağıdaki komut `#!bash cat` ile elde edilen çıktıdaki her bir satırı `:` karakterinden parçalara ayırır ve bu parçalardan 1. sütunu seçer:
+Aşağıdaki komut `cat` ile elde edilen çıktıdaki her bir satırı `:` karakterinden parçalara ayırır ve bu parçalardan 1. sütunu seçer:
 
 ```bash
 cat /etc/passwd | cut -d ":" -f1
@@ -14,7 +14,7 @@ cat /etc/passwd | cut -d ":" -f1
 
 ## Tr
 
-Aşağıdaki komut `#!bash cat` ile elde edilen çıktıdaki her bir `:` karakterini boşluk karakteri ile değiştirir:
+Aşağıdaki komut `cat` ile elde edilen çıktıdaki her bir `:` karakterini boşluk karakteri ile değiştirir:
 
 ```bash
 cat /etc/passwd | tr ":" " "
@@ -22,7 +22,7 @@ cat /etc/passwd | tr ":" " "
 
 ## Column
 
-Aşağıdaki komut `#!bash cat` ile elde edilen çıktıdaki her bir `:` karakterini boşluk karakteri ile değiştirir ve son oluşan görünümü tablo haline çevirir:
+Aşağıdaki komut `cat` ile elde edilen çıktıdaki her bir `:` karakterini boşluk karakteri ile değiştirir ve son oluşan görünümü tablo haline çevirir:
 
 ```bash
 cat /etc/passwd | tr ":" " " | column -t
@@ -30,7 +30,7 @@ cat /etc/passwd | tr ":" " " | column -t
 
 ## Sed
 
-Aşağıdaki komut `#!bash cat` ile elde edilen çıktıdaki her bir `bin` kelimesini `serhat` kelimesi ile değiştirir:
+Aşağıdaki komut `cat` ile elde edilen çıktıdaki her bir `bin` kelimesini `serhat` kelimesi ile değiştirir:
 
 ```bash
 cat /etc/passwd | sed 's/bin/serhat/g'

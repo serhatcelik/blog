@@ -6,21 +6,21 @@ icon: material/help
 
 | Command | Description |
 |:---|:---|
-| `#!bash whoami` | Geçerli kullanıcı adını görüntüler. |
-| `#!bash id` | Kullanıcı kimliğini görüntüler. |
-| `#!bash hostname` | Mevcut makinenin adını ayarlar veya görüntüler. |
-| `#!bash uname` | Sistem donanımı hakkındaki bilgileri görüntüler. |
-| `#!bash pwd` | Çalışma dizini adını görüntüler. |
-| `#!bash ifconfig` | Ağ arayüzü parametrelerini yapılandırmak için kullanılır. |
-| `#!bash netstat` | Ağ durumunu görüntüler. |
-| `#!bash ss` | Soketleri araştırmak için kullanılır. |
-| `#!bash ps` | İşlem durumunu görüntüler. |
-| `#!bash who` | Kimin oturum açtığını görüntüler. |
-| `#!bash env` | Mevcut ortamı görüntüler. |
-| `#!bash lsblk` | Blok cihazlarını listeler. |
-| `#!bash lsusb` | USB cihazlarını listeler. |
-| `#!bash lsof` | Açılan dosyaları listeler. |
-| `#!bash lspci` | PCI cihazlarını listeler. |
+| `whoami` | Geçerli kullanıcı adını görüntüler. |
+| `id` | Kullanıcı kimliğini görüntüler. |
+| `hostname` | Mevcut makinenin adını ayarlar veya görüntüler. |
+| `uname` | Sistem donanımı hakkındaki bilgileri görüntüler. |
+| `pwd` | Çalışma dizini adını görüntüler. |
+| `ifconfig` | Ağ arayüzü parametrelerini yapılandırmak için kullanılır. |
+| `netstat` | Ağ durumunu görüntüler. |
+| `ss` | Soketleri araştırmak için kullanılır. |
+| `ps` | İşlem durumunu görüntüler. |
+| `who` | Kimin oturum açtığını görüntüler. |
+| `env` | Mevcut ortamı görüntüler. |
+| `lsblk` | Blok cihazlarını listeler. |
+| `lsusb` | USB cihazlarını listeler. |
+| `lsof` | Açılan dosyaları listeler. |
+| `lspci` | PCI cihazlarını listeler. |
 
 ## Questions
 

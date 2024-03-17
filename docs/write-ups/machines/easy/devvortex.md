@@ -383,7 +383,7 @@ User logan may run the following commands on devvortex:
     (ALL : ALL) /usr/bin/apport-cli
 ```
 
-Mevcut kullanıcı ile `#!bash apport-cli` ikili dosyasını çalıştırabildiğimi fark ettim. Kısa bir Google aramasından sonra bu aracın çökme raporları oluşturmada kullanılabildiğini ve bu aracın ilgili sürümünde bir [zafiyet](https://diegojoelcondoriquispe.medium.com/cve-2023-1326-poc-c8f2a59d0e00) bulunduğunu keşfettim.
+Mevcut kullanıcı ile `apport-cli` ikili dosyasını çalıştırabildiğimi fark ettim. Kısa bir Google aramasından sonra bu aracın çökme raporları oluşturmada kullanılabildiğini ve bu aracın ilgili sürümünde bir [zafiyet](https://diegojoelcondoriquispe.medium.com/cve-2023-1326-poc-c8f2a59d0e00) bulunduğunu keşfettim.
 
 ```bash
 sudo /usr/bin/apport-cli -f

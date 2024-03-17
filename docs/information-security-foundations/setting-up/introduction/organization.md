@@ -20,7 +20,7 @@ Sızma testi sonrası elde edilen sonuçlar çok önemlidir. Bu sonuçlar doküm
 
 ## 4. Logging
 
-Log tutmak sızma testinin önemli bir parçasıdır. Test sırasında başka kişiler tarafından bir saldırı gerçekleştirilirse ve bu saldırı sonucunda bir hasar meydana gelirse, bu hasarın bizden kaynaklı olmadığını tutulan log dosyaları ile kanıtlayabiliriz. Bunun için Linux sistemlerinde `#!bash date` ve `#!bash script` isimli araçları, Windows sistemlerinde ise `#!powershell Get-Date` ve `#!powershell Start-Transcript` isimli araçları kullanabiliriz. Bu araçları kullanarak dosya ismi o anki tarih bilgisi olan bir log dosyası oluştururuz. Böylece çalıştırdığımız her komut -biz durdurana kadar- kayıt altına alınmış olur.
+Log tutmak sızma testinin önemli bir parçasıdır. Test sırasında başka kişiler tarafından bir saldırı gerçekleştirilirse ve bu saldırı sonucunda bir hasar meydana gelirse, bu hasarın bizden kaynaklı olmadığını tutulan log dosyaları ile kanıtlayabiliriz. Bunun için Linux sistemlerinde `date` ve `script` isimli araçları, Windows sistemlerinde ise `Get-Date` ve `Start-Transcript` isimli araçları kullanabiliriz. Bu araçları kullanarak dosya ismi o anki tarih bilgisi olan bir log dosyası oluştururuz. Böylece çalıştırdığımız her komut -biz durdurana kadar- kayıt altına alınmış olur.
 
 ### Script
 

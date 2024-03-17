@@ -30,7 +30,7 @@ Feb 28 2023 18:15:21 CRON[2345]: pam_unix(cron:session): session opened for user
 Feb 28 2023 18:15:24 CRON[2345]: pam_unix(cron:session): session closed for user root
 ```
 
-İlk satırda `admin` kullanıcısı için kimlik doğrulama amacıyla başarılı bir ortak anahtarın kullanıldığını görebiliriz. Kullanıcı `#!bash sudo` yardımıyla komut çalıştırmıştır. Bu yüzden kullanıcının `sudoers` grubunda olduğunu söyleyebiliriz. Kernel mesajı 22 numaralı port üzerinde beklenmeyen bir trafiğe izin verildiğini belirtiyor. Bu, olası bir güvenlik ihlaline işaret edebilir. Daha sonrasında `systemd-logind` ile `admin` kullanıcısı için yeni bir oturum oluşturulduğunu ve `root` kullanıcısı için bir `#!bash cron` oturumunun açılıp kapatıldığını görüyoruz.
+İlk satırda `admin` kullanıcısı için kimlik doğrulama amacıyla başarılı bir ortak anahtarın kullanıldığını görebiliriz. Kullanıcı `sudo` yardımıyla komut çalıştırmıştır. Bu yüzden kullanıcının `sudoers` grubunda olduğunu söyleyebiliriz. Kernel mesajı 22 numaralı port üzerinde beklenmeyen bir trafiğe izin verildiğini belirtiyor. Bu, olası bir güvenlik ihlaline işaret edebilir. Daha sonrasında `systemd-logind` ile `admin` kullanıcısı için yeni bir oturum oluşturulduğunu ve `root` kullanıcısı için bir `cron` oturumunun açılıp kapatıldığını görüyoruz.
 
 ## Application logs
 

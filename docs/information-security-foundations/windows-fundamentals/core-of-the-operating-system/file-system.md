@@ -44,7 +44,7 @@ Dosyalar ve klasörler yönetim kolaylığı için üst klasörlerin NTFS izinle
 
 ## Integrity Control Access Control List (icacls)
 
-Bir dizindeki NTFS izinlerini `#!batch icacls` aracını kullanarak listeleyebiliriz:
+Bir dizindeki NTFS izinlerini `icacls` aracını kullanarak listeleyebiliriz:
 
 ```batch
 icacls C:\Windows

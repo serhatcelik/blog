@@ -2,7 +2,7 @@
 
 !!! tip "Archinstall"
 
-    Bu anlatımda, Arch Linux sisteminin nispeten daha zor yoldan kurulumu anlatılmıştır. Daha kolay bir yol tercih etmek isterseniz, `#!bash archinstall` aracını kullanabilirsiniz:
+    Bu anlatımda, Arch Linux sisteminin nispeten daha zor yoldan kurulumu anlatılmıştır. Daha kolay bir yol tercih etmek isterseniz, `archinstall` aracını kullanabilirsiniz:
 
     ```bash
     pacman -Syy archinstall
@@ -176,7 +176,7 @@ Cihaz (bu örnekte kablosuz ağ cihazı) soft-blocked durumunda gözüküyorsa, 
 rfkill unblock wlan
 ```
 
-Kuruluma başlamak için `#!bash iwctl` aracını başlat:
+Kuruluma başlamak için `iwctl` aracını başlat:
 
 ```bash
 iwctl
@@ -252,7 +252,7 @@ known-networks list
 
 !!! info "Ping"
 
-    Ağ bağlantısı `#!bash ping` komutu ile test edebilir.
+    Ağ bağlantısı `ping` komutu ile test edebilir.
 
 ### Update the system clock
 
@@ -280,7 +280,7 @@ Kullanılabilir diskleri görüntülemek için aşağıdaki komutu çalıştır:
 fdisk -l
 ```
 
-Kullanmak istediğin diski (bu örnekte `/dev/sda` diski) bölümlendirmek için `#!bash cfdisk` aracını başlat:
+Kullanmak istediğin diski (bu örnekte `/dev/sda` diski) bölümlendirmek için `cfdisk` aracını başlat:
 
 ```bash
 cfdisk /dev/sda
@@ -332,7 +332,7 @@ Kullanılabilir diskleri görüntülemek için aşağıdaki komutu çalıştır:
 fdisk -l
 ```
 
-Kullanmak istediğin diski (bu örnekte `/dev/sda` diski) bölümlendirmek için `#!bash cfdisk` aracını başlat:
+Kullanmak istediğin diski (bu örnekte `/dev/sda` diski) bölümlendirmek için `cfdisk` aracını başlat:
 
 ```bash
 cfdisk /dev/sda
@@ -434,7 +434,7 @@ Aşağıdaki komut ile mirror listesi güncellenebilir:
 
 !!! info "List Countries"
 
-    Bu örnekte ülke kodu olarak Türkiye (`TR`) kullanılmıştır. Ülke kodunu öğrenmek için `#!bash reflector --list-countries` komutu kullanılabilir.
+    Bu örnekte ülke kodu olarak Türkiye (`TR`) kullanılmıştır. Ülke kodunu öğrenmek için `reflector --list-countries` komutu kullanılabilir.
 
 ```bash
 reflector --country TR --fastest 12 --latest 10 --number 12 --download-timeout 120 --save /etc/pacman.d/mirrorlist
@@ -518,7 +518,7 @@ systemctl enable systemd-timesyncd.service
 
 ### Localization
 
-Dosyalarda değişiklik yapabilmek için `#!bash vim` aracını kur:
+Dosyalarda değişiklik yapabilmek için `vim` aracını kur:
 
 ```bash
 pacman -Syy vim
@@ -591,7 +591,7 @@ Hosts dosyasını oluştur:
 127.0.0.1  my-cool-hostname
 ```
 
-DHCP özelliğini kullanmak için `#!bash dhcpcd` aracını yükle:
+DHCP özelliğini kullanmak için `dhcpcd` aracını yükle:
 
 ```bash
 pacman -S dhcpcd

@@ -24,7 +24,7 @@ Servisi, sistem açılışında otomatik başlayacak şekilde ayarla:
 sudo systemctl enable ssh
 ```
 
-Servislere ait günlük kayıtlarına erişmek için `#!bash journalctl` aracı kullanılabilir:
+Servislere ait günlük kayıtlarına erişmek için `journalctl` aracı kullanılabilir:
 
 ```bash
 journalctl -u ssh.service
@@ -39,7 +39,7 @@ Bir işlem aşağıdaki durumlardan birinde bulunabilir:
 * Stopped (Çalışmıyor)
 * Zombie (Çalışmıyor ancak işlem tablosunda girdileri mevcut)
 
-Bir işlem `#!bash kill` komutuyla sonlandırılabilir. Bunun için işleme bir sinyal gönderilmelidir. En yaygın kullanılan sinyaller aşağıda verilmiştir:
+Bir işlem `kill` komutuyla sonlandırılabilir. Bunun için işleme bir sinyal gönderilmelidir. En yaygın kullanılan sinyaller aşağıda verilmiştir:
 
 | Signal | Value | Description |
 |:---|:---|:---|

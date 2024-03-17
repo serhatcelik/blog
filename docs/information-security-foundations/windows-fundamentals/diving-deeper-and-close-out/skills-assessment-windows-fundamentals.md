@@ -40,7 +40,7 @@ List the SID associated with the HR security group you created.
 
 ??? tip "Steps"
 
-    PowerShell üzerinde `#!powershell compmgmt` komutunu girerek Computer Management arayüzünü aç.
+    PowerShell üzerinde `compmgmt` komutunu girerek Computer Management arayüzünü aç.
 
     Burada `Local Users and Groups` --> `Groups` yolunu takip et.
 

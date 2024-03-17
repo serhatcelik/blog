@@ -8,4 +8,4 @@ Bash shell üzerinde `PROMPT_COMMAND` değişkeni kullanılarak, PS1 gösterilme
 echo "PROMPT_COMMAND=ls" >> ~/.bashrc
 ```
 
-Bu komut sayesinde, prompt gösterilmeden önce mevcut dizinin içeriği `#!bash ls` komutu ile listelenecektir.
+Bu komut sayesinde, prompt gösterilmeden önce mevcut dizinin içeriği `ls` komutu ile listelenecektir.

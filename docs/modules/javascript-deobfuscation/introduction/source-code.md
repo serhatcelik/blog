@@ -14,9 +14,9 @@ Web sitesinin kaynak kodunu görüntülemek için ++control+u++ tuş kombinasyon
 
 ## CSS
 
-CSS kodu, `#!html <style>` içerisinde dahili olarak tanımlanır veya harici olarak ayrı bir .css dosyasında tanımlanır ve HTML kodu içerisinde referans verilir.
+CSS kodu, `<style>` içerisinde dahili olarak tanımlanır veya harici olarak ayrı bir .css dosyasında tanımlanır ve HTML kodu içerisinde referans verilir.
 
-CSS kodu harici olarak tanımlanmışsa, harici .css dosyasına HTML başlığında aşağıdaki gibi `#!html <link>` etiketiyle başvurulur:
+CSS kodu harici olarak tanımlanmışsa, harici .css dosyasına HTML başlığında aşağıdaki gibi `<link>` etiketiyle başvurulur:
 
 ```html
 <head>
@@ -26,7 +26,7 @@ CSS kodu harici olarak tanımlanmışsa, harici .css dosyasına HTML başlığı
 
 ## JavaScript
 
-JavaScript kodu, `#!html <script>` içerisinde dahili olarak tanımlanır veya harici olarak .js dosyasına tanımlanır ve HTML kodu içerisinde referans verilir:
+JavaScript kodu, `<script>` içerisinde dahili olarak tanımlanır veya harici olarak .js dosyasına tanımlanır ve HTML kodu içerisinde referans verilir:
 
 ```html
 <script src="secret.js"></script>

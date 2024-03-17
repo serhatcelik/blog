@@ -6,15 +6,15 @@ icon: material/help
 
 | Command | Description |
 |:---|:---|
-| `#!bash ls` | Dizin içeriğini listeler. |
-| `#!bash ls -a` | Dizin içeriğini gizli dosyalarla birlikte listeler. |
-| `#!bash ls -l` | Dizin içeriğini daha fazla bilgi gösterecek şekilde listeler. |
-| `#!bash cd` | Dizinler arasında gezinmeyi sağlar. |
-| `#!bash cd ~` | Mevcut kullanıcının ev dizinine geçiş yapar. |
-| `#!bash cd -` | Son bulunulan dizine geri döner. |
-| `#!bash cd ..` | Bir üst dizine geçiş yapar. |
-| `#!bash clear` | Shell ekranını temizler. |
-| `#!bash clear -x` | Shell ekranını kısmen temizler. |
+| `ls` | Dizin içeriğini listeler. |
+| `ls -a` | Dizin içeriğini gizli dosyalarla birlikte listeler. |
+| `ls -l` | Dizin içeriğini daha fazla bilgi gösterecek şekilde listeler. |
+| `cd` | Dizinler arasında gezinmeyi sağlar. |
+| `cd ~` | Mevcut kullanıcının ev dizinine geçiş yapar. |
+| `cd -` | Son bulunulan dizine geri döner. |
+| `cd ..` | Bir üst dizine geçiş yapar. |
+| `clear` | Shell ekranını temizler. |
+| `clear -x` | Shell ekranını kısmen temizler. |
 
 ## Questions
 

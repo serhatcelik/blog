@@ -50,7 +50,7 @@ find /etc -name shadow 2>stderr.txt 1>stdout.txt
 
 ## Redirect STDIN
 
-Yeniden yönlendirme işlemi STDIN akışı için de yapılabilir. Bunun için farklı olarak `>` işareti yerine `<` işareti kullanılır. Örneğin `stdout.txt` dosyasına kaydedilen veriler `#!bash cat` aracına girdi olarak verilebilir:
+Yeniden yönlendirme işlemi STDIN akışı için de yapılabilir. Bunun için farklı olarak `>` işareti yerine `<` işareti kullanılır. Örneğin `stdout.txt` dosyasına kaydedilen veriler `cat` aracına girdi olarak verilebilir:
 
 ```bash
 cat 0<stdout.txt

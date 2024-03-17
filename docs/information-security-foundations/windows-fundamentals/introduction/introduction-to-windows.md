@@ -44,7 +44,7 @@ RDP uzaktan erişiminin etkinleştirildiği hedef bilgisayar sunucu olarak kabul
 
 ### Using xfreerdp
 
-Linux tabanlı bir saldırı sisteminden Windows sistemine RDP kullanarak uzaktan erişmek için `#!bash xfreerdp` adlı aracı kullanabiliriz. Kullanım kolaylığı ve verimliliği nedeniyle tercih edilen bir araçtır:
+Linux tabanlı bir saldırı sisteminden Windows sistemine RDP kullanarak uzaktan erişmek için `xfreerdp` adlı aracı kullanabiliriz. Kullanım kolaylığı ve verimliliği nedeniyle tercih edilen bir araçtır:
 
 ```bash
 xfreerdp /dynamic-resolution /v:<target-ip> /u:<username> /p:<password>

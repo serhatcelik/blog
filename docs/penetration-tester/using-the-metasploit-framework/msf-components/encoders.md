@@ -74,7 +74,7 @@ Error: Permission denied @ rb_sysopen - /root/Desktop/TeamViewer_Setup.exe
 
 ## MSF - VirusTotal
 
-Metasploit, payload analizi için VirusTotal API anahtarıyla kullanılabilen `#!bash msf-virustotal` adında bir araç sunmaktadır:
+Metasploit, payload analizi için VirusTotal API anahtarıyla kullanılabilen `msf-virustotal` adında bir araç sunmaktadır:
 
 ```bash
 msf-virustotal -k <API key> -f TeamViewer_Setup.exe

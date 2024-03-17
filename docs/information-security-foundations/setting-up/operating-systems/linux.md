@@ -44,7 +44,7 @@ Aşağıdaki komutu kullanarak bu araçların kurulmasını sağlayabiliriz:
 sudo apt update && sudo apt install -y $(cat tools.list | tr "\n" " ")
 ```
 
-Burada `#!bash tr` komutu dosya içindeki `\n` karakterlerini boşluk karakterlerine çevirir.
+Burada `tr` komutu dosya içindeki `\n` karakterlerini boşluk karakterlerine çevirir.
 
 ## Terminal Adjustment
 

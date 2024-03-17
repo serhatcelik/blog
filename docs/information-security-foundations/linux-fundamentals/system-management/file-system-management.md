@@ -14,7 +14,7 @@ cat /etc/fstab
 
 ## List Mounted Drives
 
-Eğer `#!bash mount` komutunu tek başına kullanırsak şu anda mount edilmiş dosya sistemlerini görüntüleyebiliriz.
+Eğer `mount` komutunu tek başına kullanırsak şu anda mount edilmiş dosya sistemlerini görüntüleyebiliriz.
 
 Mount bilgilerini görüntüle:
 

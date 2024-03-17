@@ -163,7 +163,7 @@ find / -name *env 2> /dev/null
 /.dockerenv
 ```
 
-Arama sonuçlarından elde ettiğim bilgilerden yola çıkarak `#!bash printenv` komutunu kullandım ve bu komut bana aşağıdaki çıktıyı sağladı:
+Arama sonuçlarından elde ettiğim bilgilerden yola çıkarak `printenv` komutunu kullandım ve bu komut bana aşağıdaki çıktıyı sağladı:
 
 ```text title="Output" hl_lines="13 14"
 SHELL=/bin/sh

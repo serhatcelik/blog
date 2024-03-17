@@ -29,14 +29,14 @@ Aşağıdaki tabloda tmux oturumları için bir cheat sheet verilmiştir ([kayna
 
 | Command | Description |
 |:---|:---|
-| `#!bash tmux` | Yeni bir oturum başlat. |
-| `#!bash tmux new -s s_name` | Adı `s_name` olan yeni bir oturum başlat. |
+| `tmux` | Yeni bir oturum başlat. |
+| `tmux new -s s_name` | Adı `s_name` olan yeni bir oturum başlat. |
 | ++control+b++ ++d++ | Mevcut oturumdan ayrıl (işlemler arka planda çalışır). |
-| `#!bash tmux a` | Son oturuma bağlan. |
-| `#!bash tmux a -t s_name` | Adı `s_name` olan oturuma bağlan. |
+| `tmux a` | Son oturuma bağlan. |
+| `tmux a -t s_name` | Adı `s_name` olan oturuma bağlan. |
 | ++control+b++ ++dollar++ | Mevcut oturumu yeniden adlandır. |
-| `#!bash tmux kill-session -t s_name` | Adı `s_name` olan oturumu sonlandır. |
-| `#!bash tmux ls` | Tüm oturumları göster. |
+| `tmux kill-session -t s_name` | Adı `s_name` olan oturumu sonlandır. |
+| `tmux ls` | Tüm oturumları göster. |
 
 ## 2. Windows
 

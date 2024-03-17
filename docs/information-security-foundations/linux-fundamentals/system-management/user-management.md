@@ -6,14 +6,14 @@ icon: material/help
 
 | Command | Description |
 |:---|:---|
-| `#!bash sudo` | Verilen komutu farklı bir kullanıcı olarak yürütür. |
-| `#!bash su` | Belirtilen kullanıcı kimliğine geçer. |
-| `#!bash useradd` | Yeni bir kullanıcı oluşturur. |
-| `#!bash userdel` | Bir kullanıcı hesabını ve ilgili dosyaları siler. |
-| `#!bash usermod` | Bir kullanıcı hesabını değiştirir. |
-| `#!bash addgroup` | Sisteme bir grup ekler. |
-| `#!bash delgroup` | Bir grubu sistemden kaldırır. |
-| `#!bash passwd` | Kullanıcı parolasını değiştirir. |
+| `sudo` | Verilen komutu farklı bir kullanıcı olarak yürütür. |
+| `su` | Belirtilen kullanıcı kimliğine geçer. |
+| `useradd` | Yeni bir kullanıcı oluşturur. |
+| `userdel` | Bir kullanıcı hesabını ve ilgili dosyaları siler. |
+| `usermod` | Bir kullanıcı hesabını değiştirir. |
+| `addgroup` | Sisteme bir grup ekler. |
+| `delgroup` | Bir grubu sistemden kaldırır. |
+| `passwd` | Kullanıcı parolasını değiştirir. |
 
 ## Questions
 

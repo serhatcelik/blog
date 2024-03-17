@@ -77,4 +77,4 @@ Using what you learned in this section, try to deobfuscate 'secret.js' in order 
 
     Deobfuscate işlemi için UnPacker aracını kullan.
 
-    Cevap, elde edilen kodda bulunan `#!javascript var flag` değişkeninde gözükecektir.
+    Cevap, elde edilen kodda bulunan `var flag` değişkeninde gözükecektir.

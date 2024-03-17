@@ -6,7 +6,7 @@ icon: material/circle-small
 
 ## Changing User Agent
 
-Yöneticiler User-Agent dizelerinden herhangi birini kara listeye almışsa `#!powershell Invoke-WebRequest` fonksiyonu kullanılarak varsayılan User-Agent değiştirilebilir. Örneğin Chrome dahili olarak kullanılıyorsa, ilgili User-Agent dizesinin ayarlanması isteğin meşru görünmesini sağlayabilir.
+Yöneticiler User-Agent dizelerinden herhangi birini kara listeye almışsa `Invoke-WebRequest` fonksiyonu kullanılarak varsayılan User-Agent değiştirilebilir. Örneğin Chrome dahili olarak kullanılıyorsa, ilgili User-Agent dizesinin ayarlanması isteğin meşru görünmesini sağlayabilir.
 
 ### Listing out User Agents
 
@@ -41,7 +41,7 @@ $UserAgent = [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome; Invoke-WebRequ
 
 ## LOLBAS / GTFOBins
 
-Belirli uygulamaların beyaz listeye alınması, PowerShell veya Netcat araçlarının kullanılmasına engel olabilir. Ayrıca komut satırı günlükleri mavi takımı uyarabilir. Bu durumda LOLBins kullanmak gerekli olabilir. Örnek bir LOLBin, bazı sistemlere yüklenen `#!batch GfxDownloadWrapper.exe` sürücüsüdür ve yapılandırma dosyalarını düzenli aralıklarla indirme işlevini içerir.
+Belirli uygulamaların beyaz listeye alınması, PowerShell veya Netcat araçlarının kullanılmasına engel olabilir. Ayrıca komut satırı günlükleri mavi takımı uyarabilir. Bu durumda LOLBins kullanmak gerekli olabilir. Örnek bir LOLBin, bazı sistemlere yüklenen `GfxDownloadWrapper.exe` sürücüsüdür ve yapılandırma dosyalarını düzenli aralıklarla indirme işlevini içerir.
 
 Bu indirme işlevi aşağıdaki şekilde çağrılabilir:
 

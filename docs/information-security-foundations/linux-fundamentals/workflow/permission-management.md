@@ -16,7 +16,7 @@ Linux sistemlerindeki tüm izin sistemi sekizli sayı sistemine dayanmaktadır v
 
 ## Change Permissions
 
-İzinleri değiştirmek için `#!bash chmod` komutu kullanılabilir. Burada `u` user, `g` group, `o` others ve `a` all users için kullanılır. İzin eklemek için `+` işareti ve izin kaldırmak için `-` işareti kullanılabilir. Örneğin:
+İzinleri değiştirmek için `chmod` komutu kullanılabilir. Burada `u` user, `g` group, `o` others ve `a` all users için kullanılır. İzin eklemek için `+` işareti ve izin kaldırmak için `-` işareti kullanılabilir. Örneğin:
 
 ```bash
 chmod a+r script.py && ls -l script.py
@@ -42,7 +42,7 @@ Buradaki 754 ifadesi aşağıda gösterildiği şekilde elde edilmiştir:
 
 ## Change Owner
 
-Sahiplik değiştirmek için `#!bash chown` komutu kullanılabilir. Komutu kullanırken `:` işaretinin solundaki kısım `user` için, sağındaki kısım ise `group` için kullanılır. Örneğin:
+Sahiplik değiştirmek için `chown` komutu kullanılabilir. Komutu kullanırken `:` işaretinin solundaki kısım `user` için, sağındaki kısım ise `group` için kullanılır. Örneğin:
 
 ```bash
 chown root:root script.py && ls -l script.py
@@ -54,7 +54,7 @@ chown root:root script.py && ls -l script.py
 
 ## SUID & SGID
 
-SUID (Set owner User ID) ve SGID (Set owner Group ID) biti herhangi bir programın, herhangi bir kullanıcı tarafından, o programın sahibinin yetkilerinde çalıştırılmasını sağlar. Bu sayede erişim yetkimizin bulunmadığı bir dosya üzerinde değişiklik yapabiliriz. Örneğin sıradan bir kullanıcı `#!bash passwd` komutunu kullanarak kendi parolasını değiştirdiğinde `root` kullanıcısına ait olan `/etc/shadow` dosyası içerisinde kendine ait parola özetini değiştirmiş olur. Böylelikle kendisine ait olmayan bir dosyada düzenleme yapabilmiştir. Değer `s` ise SUID/SGID aktif ve çalıştırılabilir izin mevcut anlamına gelir. Değer `S` ise SUID/SGID aktif ve çalıştırılabilir izin mevcut değil anlamına gelir.
+SUID (Set owner User ID) ve SGID (Set owner Group ID) biti herhangi bir programın, herhangi bir kullanıcı tarafından, o programın sahibinin yetkilerinde çalıştırılmasını sağlar. Bu sayede erişim yetkimizin bulunmadığı bir dosya üzerinde değişiklik yapabiliriz. Örneğin sıradan bir kullanıcı `passwd` komutunu kullanarak kendi parolasını değiştirdiğinde `root` kullanıcısına ait olan `/etc/shadow` dosyası içerisinde kendine ait parola özetini değiştirmiş olur. Böylelikle kendisine ait olmayan bir dosyada düzenleme yapabilmiştir. Değer `s` ise SUID/SGID aktif ve çalıştırılabilir izin mevcut anlamına gelir. Değer `S` ise SUID/SGID aktif ve çalıştırılabilir izin mevcut değil anlamına gelir.
 
 ```bash
 chmod 4755 script.py && ls -l script.py

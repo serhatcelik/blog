@@ -44,6 +44,6 @@ console.log("Hello, World!");
 eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){while(c--){d[c]=k[c]||c}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0.1("2, 3!");',4,4,'console|log|Hello|World'.split('|'),0,{}))
 ```
 
-Yukarıda verilen obfuscation tekniği paketleme (packing) olarak bilinir ve genellikle başlangıç fonksiyonunda kullanılan altı bağımsız değişkenden (`#!javascript function(p,a,c,k,e,d)`) tanınabilir.
+Yukarıda verilen obfuscation tekniği paketleme (packing) olarak bilinir ve genellikle başlangıç fonksiyonunda kullanılan altı bağımsız değişkenden (`function(p,a,c,k,e,d)`) tanınabilir.
 
 Verilen bu yöntemler, kodun okunabilirliğini azaltmak için kullanışlı olsalar da, string ifadeler (`Hello` ve `World`) açık metin olarak gözükmektedir. Bu durum koda ait önemli işlevleri açığa çıkarabilir. Bu nedenle kodumuzu gizlemenin daha iyi yollarını aramak isteyebiliriz.

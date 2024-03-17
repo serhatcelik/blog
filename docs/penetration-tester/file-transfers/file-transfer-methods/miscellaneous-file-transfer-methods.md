@@ -116,13 +116,13 @@ Copy-Item -Path "C:\Users\Administrator\Desktop\DATABASE.txt" -Destination "C:\"
 
 ## RDP
 
-Bir Linux klasörünü `#!bash rdesktop` aracını kullanarak bağlamak için aşağıdaki komut kullanılabilir:
+Bir Linux klasörünü `rdesktop` aracını kullanarak bağlamak için aşağıdaki komut kullanılabilir:
 
 ```bash
 rdesktop 10.10.10.132 -d HTB -u administrator -p 'Password0@' -r disk:linux='/home/user/rdesktop/files'
 ```
 
-Bir Linux klasörünü `#!bash xfreerdp` aracını kullanarak bağlamak için aşağıdaki komut kullanılabilir:
+Bir Linux klasörünü `xfreerdp` aracını kullanarak bağlamak için aşağıdaki komut kullanılabilir:
 
 ```bash
 xfreerdp /dynamic-resolution /v:10.10.10.132 /d:HTB /u:administrator /p:'Password0@' /drive:linux,/home/plaintext/htb/academy/filetransfer

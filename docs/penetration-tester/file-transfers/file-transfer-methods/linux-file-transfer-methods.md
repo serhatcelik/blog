@@ -232,7 +232,7 @@ Upload the attached file named upload_nix.zip to the target using the method of 
     echo -n 'UEsDBAoAAAAAAEqEKVFRlJcKIAAAACAAAAAOAAAAdXBsb2FkX25peC50eHQwNDgwOTBiYzdlZDA0Zjc1ODY1ODk3NWRmOGY4NjJjOFBLAQI/AAoAAAAAAEqEKVFRlJcKIAAAACAAAAAOACQAAAAAAAAAIAAAAAAAAAB1cGxvYWRfbml4LnR4dAoAIAAAAAAAAQAYAHGdOpjohtYB0cK75fqG1gHXv2od5obWAVBLBQYAAAAAAQABAGAAAABMAAAAAAA=' | base64 -d > upload_nix.zip
     ```
 
-    Oluşturulan arşiv içindeki metin dosyasını arşivden çıkarmalıyız. Hedef sistemde `#!bash unzip` aracı yüklü olmayabilir. Bu durumda Python kullanabiliriz:
+    Oluşturulan arşiv içindeki metin dosyasını arşivden çıkarmalıyız. Hedef sistemde `unzip` aracı yüklü olmayabilir. Bu durumda Python kullanabiliriz:
 
     ```bash
     python3 -c 'import sys; import zipfile; zipfile.PyZipFile("upload_nix.zip").extractall()'

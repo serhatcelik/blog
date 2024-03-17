@@ -18,7 +18,7 @@ Komutu kısım kısım açıklayalım:
 
 | Command | Description |
 |:---|:---|
-| `#!batch docker run` | Yeni bir Container oluşturulur ve başlatılır. |
+| `docker run` | Yeni bir Container oluşturulur ve başlatılır. |
 | `--restart always` | Yeniden [başlatma politikası](https://docs.docker.com/engine/reference/run/#restart-policies---restart) ayarlandı. Bu sayede sistem açılışında ilgili container (`n8n`) otomatik olarak çalıştırılacaktır. Bunun için Docker Desktop uygulamasının, sistem açılışında otomatik olarak başlayacak şekilde ayarlanması gerekmektedir. |
 | `--name n8n` | Container ismi. |
 | `-p 5678:5678` | Container portu (`5678`) sistem portu (`5678`) ile ilişkilendirildi. |

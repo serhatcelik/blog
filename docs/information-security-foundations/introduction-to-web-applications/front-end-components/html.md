@@ -25,7 +25,7 @@ HTML çalışırken öğrenilmesi gereken önemli bir kavram, URL encoding veya 
 
 ## Usage
 
-Bir `#!html <head>` elementi genellikle sayfa başlığı gibi doğrudan sayfaya yazdırılmayan elementleri içerirken, tüm ana sayfa elementleri `#!html <body>` altında bulunur. Bir `#!html <style>` elementi sayfanın CSS kodunu içerirken, `#!html <script>` elementi JavaScript kodlarını içerir.
+Bir `<head>` elementi genellikle sayfa başlığı gibi doğrudan sayfaya yazdırılmayan elementleri içerirken, tüm ana sayfa elementleri `<body>` altında bulunur. Bir `<style>` elementi sayfanın CSS kodunu içerirken, `<script>` elementi JavaScript kodlarını içerir.
 
 Bu elementlerin her birine DOM adı verilir. W3C (World Wide Web Consortium), DOM kavramını şu şekilde tanımlar:
 

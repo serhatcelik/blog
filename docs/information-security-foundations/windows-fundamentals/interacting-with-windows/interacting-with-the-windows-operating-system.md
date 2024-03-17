@@ -6,7 +6,7 @@ icon: material/help
 
 ## CMD
 
-Bir araç ile ilgili yardım almak için `#!batch help` komutunu kullanabiliriz ya da araca ait `/?` seçeneğini kullanabiliriz. Örneğin:
+Bir araç ile ilgili yardım almak için `help` komutunu kullanabiliriz ya da araca ait `/?` seçeneğini kullanabiliriz. Örneğin:
 
 ```batch
 help schtasks
@@ -34,7 +34,7 @@ Yeni bir alias oluştur:
 Set-Alias -Name "my" -Value Get-ChildItem
 ```
 
-Cmdlet `#!powershell Get-Alias` için çevrim içi yardım sayfasını aç:
+Cmdlet `Get-Alias` için çevrim içi yardım sayfasını aç:
 
 ```powershell
 Get-Help Get-Alias -Online
@@ -46,7 +46,7 @@ Yardım dosyalarını yerele indir ve yükle:
 Update-Help
 ```
 
-Cmdlet `#!powershell Get-Alias` için yerel yardımı görüntüle:
+Cmdlet `Get-Alias` için yerel yardımı görüntüle:
 
 ```powershell
 Get-Help Get-Alias
