@@ -89,7 +89,7 @@ root        6720    2226  0 16:14 pts/0    00:00:00 grep --color=auto 2811
 sudo rm /etc/nginx/sites-enabled/default
 ```
 
-Artık PUT isteği göndermek için cURL kullanarak yüklemeyi test edebiliriz. Aşağıdaki örnekte `/etc/passwd` dosyası sunucuya `user.txt` adı ile yüklenmiştir:
+Artık PUT isteği göndermek için cURL kullanarak yüklemeyi test edebiliriz. Aşağıdaki örnekte `/etc/passwd` dosyası sunucuya `users.txt` adı ile yüklenmiştir:
 
 ```bash
 curl -T /etc/passwd http://localhost:9001/SecretUploadDirectory/users.txt
