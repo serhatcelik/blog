@@ -34,7 +34,7 @@ Proxy neredeyse her zaman OSI modelinin 7. katmanında çalışır. Pek çok pro
 
 Ters proxy ileri proxy sisteminin tersidir. Giden istekleri filtrelemek yerine gelen istekleri filtreler. Ters proxy kullanımının en yaygın amacı bir adresi dinlemek ve onu kapalı bir ağa iletmektir.
 
-Sızma testi uzmanları zararlı yazılımdan etkilenmiş uç noktalarda ters proxy yapılandırması uygular. Etkilenen uç nokta belirlenen port üzerinde dinleme gerçekleştirir ve bu porta bağlanan herhangi bir istemciyi, etkilenen uç nokta aracılığıyla saldırgana yönlendirir. Bu, güvenlik duvarlarını atlatmak veya günlük kaydından kaçınmak için kullanışlıdır. Kuruluşların harici web isteklerini izleyen IDS sistemleri olabilir. Saldırganın SSH üzerinden kuruluşa erişim sağlaması durumunda ters proxy, SSH tüneli üzerinden web istekleri gönderebilir ve IDS sisteminden kaçabilir.
+Sızma testi uzmanları zararlı yazılımdan etkilenmiş uç noktalarda ters proxy yapılandırması uygular. Etkilenen uç nokta belirlenen port üzerinden dinleme gerçekleştirir ve bu porta bağlanan herhangi bir istemciyi, etkilenen uç nokta aracılığıyla saldırgana yönlendirir. Bu, güvenlik duvarlarını atlatmak veya günlük kaydından kaçınmak için kullanışlıdır. Kuruluşların harici web isteklerini izleyen IDS sistemleri olabilir. Saldırganın SSH üzerinden kuruluşa erişim sağlaması durumunda ters proxy, SSH tüneli üzerinden web istekleri gönderebilir ve IDS sisteminden kaçabilir.
 
 ## (Non-) Transparent Proxy
 
