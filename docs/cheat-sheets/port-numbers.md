@@ -30,6 +30,7 @@ hide:
 | 88 | Kerberos authentication system | {++Yes++} | {++Yes++} |
 | 110 | POP3 (unencrypted) | {++Yes++} | {==Assigned==} |
 | 111 | ONC-RPC/SUN-RPC | {++Yes++} | {++Yes++} |
+| 135 | Microsoft DCE/RPC Locator service | {++Yes++} | {++Yes++} |
 | 137 | NetBIOS Name Service, SMB with UDP | {++Yes++} | {++Yes++} |
 | 138 | NetBIOS Datagram Service, SMB with UDP | {==Assigned==} | {++Yes++} |
 | 139 | NetBIOS Session Service, SMB on top of NBT (NetBIOS over TCP/IP) | {++Yes++} | {==Assigned==} |
