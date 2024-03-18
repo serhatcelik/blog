@@ -206,7 +206,7 @@ ssh metalytics@analytical.htb
 Bağlantı kurulduktan sonra aşağıdaki komut ile kullanıcı bayrağını elde edebildim:
 
 ```bash
-cat ~/user.txt
+cat user.txt
 ```
 
 ## Root Flag

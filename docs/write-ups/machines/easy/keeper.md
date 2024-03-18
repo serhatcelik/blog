@@ -68,7 +68,7 @@ ssh lnorgaard@10.10.11.227
 Bağlantı kurulduktan sonra aşağıdaki komut ile kullanıcı bayrağını elde edebildim:
 
 ```bash
-cat ~/user.txt
+cat user.txt
 ```
 
 ## Root Flag
@@ -212,5 +212,5 @@ ssh root@10.10.11.227 -i ~/key
 Bağlantı kurulduktan sonra aşağıdaki komut ile `root` bayrağını elde edebildim:
 
 ```bash
-cat ~/root.txt
+cat root.txt
 ```
