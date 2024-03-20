@@ -49,7 +49,7 @@ curl -X POST http://<SERVER_IP_ADDRESS>:<PORT>/api.php/city/ -H 'Content-Type: a
 
 ### Update
 
-PUT, API girişlerini güncellemek ve ayrıntılarını değiştirmek için kullanılırken DELETE, belirli bir varlığı kaldırmak için kullanılır. API girişlerini güncellemek için PUT yerine PATCH de kullanılabilir. PATCH, bir girişi kısmen güncellemek için kullanılır. PUT ise tüm girişi güncellemek için kullanılır. Hangi yöntemin sunucu tarafından kabul edildiğini görmek için OPTIONS yöntemi kullanılabilir.
+PUT, API girdilerini güncellemek ve ayrıntılarını değiştirmek için kullanılırken DELETE, belirli bir varlığı kaldırmak için kullanılır. API girdilerini güncellemek için PUT yerine PATCH de kullanılabilir. PATCH, bir girdiyi kısmen güncellemek için kullanılır. PUT ise tüm girdiyi güncellemek için kullanılır. Hangi yöntemin sunucu tarafından kabul edildiğini görmek için OPTIONS yöntemi kullanılabilir.
 
 Istanbul şehrinin adını, Malatya olarak değiştir:
 
@@ -57,7 +57,7 @@ Istanbul şehrinin adını, Malatya olarak değiştir:
 curl -X PUT http://<SERVER_IP_ADDRESS>:<PORT>/api.php/city/Istanbul -H 'Content-Type: application/json' -d '{"city_name":"Malatya", "country_name":"(TR)"}'
 ```
 
-Bazı API servislerinde UPDATE, yeni girişler oluşturmak için de kullanılabilir. Gönderilen veri kontrol edilir ve mevcut değilse oluşturulur.
+Bazı API servislerinde UPDATE, yeni girdiler oluşturmak için de kullanılabilir. Gönderilen veri kontrol edilir ve mevcut değilse oluşturulur.
 
 ### DELETE
 

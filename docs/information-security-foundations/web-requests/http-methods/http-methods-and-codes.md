@@ -9,7 +9,7 @@ icon: material/circle-small
 | Method | Description |
 |:---|:---|
 | GET | Belirli bir kaynak ister. Sorgu dizeleri aracılığıyla sunucuya ek veriler aktarılabilir. |
-| POST | Sunucuya veri gönderir. Birden çok giriş türünü işleyebilir. Bu veriler başlıklardan sonra bulunan istek gövdesine eklenir. POST yöntemi genellikle bilgi gönderirken (oturum açma bilgileri) veya bir web sitesine resim veya belge gibi veriler yüklenirken kullanılır. |
+| POST | Sunucuya veri gönderir. Birden çok girdi türünü işleyebilir. Bu veriler başlıklardan sonra bulunan istek gövdesine eklenir. POST yöntemi genellikle bilgi gönderirken (oturum açma bilgileri) veya bir web sitesine resim veya belge gibi veriler yüklenirken kullanılır. |
 | HEAD | Sunucuya bir GET isteği yapıldığında döndürülecek başlıkları ister. İstek gövdesini döndürmez ve genellikle kaynakları indirmeden önce yanıt uzunluğunu kontrol etmek için yapılır. |
 | PUT | Sunucuda yeni kaynaklar oluşturur. Bu yönteme uygun kontroller olmadan izin verilmesi kötü amaçlı kaynakların yüklenmesine yol açabilir. |
 | DELETE | Web sunucusundaki bir kaynağı siler. Düzgün bir şekilde güvence altına alınmazsa web sunucusundaki kritik dosyaların silinmesiyle DoS (Denial of Service) saldırısına neden olabilir. |
