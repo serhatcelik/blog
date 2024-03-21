@@ -123,7 +123,11 @@ markdown_extensions:
 - pymdownx.smartsymbols
 - pymdownx.snippets:
     check_paths: true
-- pymdownx.superfences
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format
 - pymdownx.tabbed:
     alternate_style: true
 - pymdownx.tasklist:
@@ -445,6 +449,9 @@ nav:
   - Programming:
     - misc/programming/index.md
     - C:
-      - misc/programming/c/format-specifiers.md
+      - misc/programming/c/structure.md
+      - misc/programming/c/execution-process.md
+      - misc/programming/c/constants.md
+      - misc/programming/c/variables.md
     - Python:
       - misc/programming/python/packaging-python-projects.md
