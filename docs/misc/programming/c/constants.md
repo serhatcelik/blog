@@ -22,10 +22,10 @@ Buradaki `max` ifadesi sabit değişken olarak ele alınır ve bu değişken iç
 
 | Decimal | Octal | Hexadecimal | Floating |
 |:---|:---|:---|:---|
-| `110` | `0156` | `0x6e` | `110.000000` |
+| 110 | 0156 | 0x6e | 110.000000 |
 
 ## Character Constants
 
 | Single | String |
 |:---|:---|
-| `'n'` | `"n"` |
+| 'n' | "n" |
