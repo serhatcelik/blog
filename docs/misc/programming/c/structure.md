@@ -42,7 +42,11 @@ void main() {
     // Declaration
     int x;
     // Execution
-    x = 1 + 2;
+    func();
+
+    /* Declaration kısmı, Execution kısmından sonra gelirse
+     * eski derleyiciler hata verir.
+     */
 }
 ```
 
