@@ -15,8 +15,8 @@ graph TB
   O((Output))
   S-->|test.c|P-->|test.i|C-->E1:::red
   E1-->|Yes|S
-  E1-->|test.am|A-->|test.obj|L-->|test.exe|R-->E2:::red
+  E1-->|No|A-->|test.obj|L-->|test.exe|R-->E2:::red
   E2-->|Yes|S
-  E2-->O
+  E2-->|No|O
   I-.->R
 ```
