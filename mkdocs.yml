@@ -33,9 +33,12 @@ theme:
   - search.share
   - search.suggest
   palette:
-  - media: "(prefers-color-scheme)"
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: deep purple
+    accent: deep purple
     toggle:
-      icon: material/link
+      icon: material/toggle-switch-off-outline
       name: Açık temaya geç
   - media: "(prefers-color-scheme: light)"
     scheme: default
@@ -43,14 +46,11 @@ theme:
     accent: deep purple
     toggle:
       icon: material/toggle-switch
-      name: Koyu temaya geç
-  - media: "(prefers-color-scheme: dark)"
-    scheme: slate
-    primary: deep purple
-    accent: deep purple
-    toggle:
-      icon: material/toggle-switch-off-outline
       name: Sistem temasına geç
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/link
+      name: Koyu temaya geç
   font:
     text: IBM Plex Sans
     code: IBM Plex Mono
