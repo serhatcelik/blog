@@ -443,6 +443,7 @@ nav:
       - misc/cybersecurity/linux/bluetooth.md
       - misc/cybersecurity/linux/dual-boot-time-synchronization.md
       - misc/cybersecurity/linux/open-vpn-tun-tap-error.md
+      - misc/cybersecurity/linux/soft-link-and-hard-link.md
       - misc/cybersecurity/linux/ssh2-msg-kex-ecdh-reply.md
       - misc/cybersecurity/linux/tmux-basics.md
       - misc/cybersecurity/linux/virtualbox-dnd.md
