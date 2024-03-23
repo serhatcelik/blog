@@ -30,10 +30,17 @@ hide:
 | ++control+z++ | Geri al. |
 | ++control+y++ | Yinele. |
 
-## Linux Terminal Shortcuts
+## Linux Shortcuts
 
 | Shortcut | Description |
 |:---|:---|
+| ++control+alt+f1++ | Virtual Terminal 1 (VT1) ekranına geç. |
+| ++control+alt+f2++ | Virtual Terminal 2 (VT2) ekranına geç. |
+| ++control+alt+f3++ | Virtual Terminal 3 (VT3) ekranına geç. |
+| ++control+alt+f4++ | Virtual Terminal 4 (VT4) ekranına geç. |
+| ++control+alt+f5++ | Virtual Terminal 5 (VT5) ekranına geç. |
+| ++control+alt+f6++ | Virtual Terminal 6 (VT6) ekranına geç. |
+| ++control+alt+f7++ | GUI oturumuna geç. |
 | ++control+c++ | SIGINT (2) sinyali ile mevcut işlemi sonlandır. |
 | ++control+z++ | SIGTSTP (20) sinyali ile mevcut işlemi askıya al. |
 | ++control+l++ | Terminali kısmen temizle. |
