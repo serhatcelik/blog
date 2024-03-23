@@ -369,6 +369,10 @@ nav:
     - penetration-tester/attacking-web-applications-with-ffuf/index.md
     - Introduction:
       - penetration-tester/attacking-web-applications-with-ffuf/introduction/web-fuzzing.md
+    - Basic Fuzzing:
+      - penetration-tester/attacking-web-applications-with-ffuf/basic-fuzzing/directory-fuzzing.md
+      - penetration-tester/attacking-web-applications-with-ffuf/basic-fuzzing/page-fuzzing.md
+      - penetration-tester/attacking-web-applications-with-ffuf/basic-fuzzing/recursive-fuzzing.md
   - Login Brute Forcing:
     - penetration-tester/login-brute-forcing/index.md
   - Cross-Site Scripting (XSS):

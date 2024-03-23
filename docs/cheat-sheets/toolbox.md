@@ -167,7 +167,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-* [Ffuf](https://github.com/ffuf/ffuf)
+* [FFuF](https://github.com/ffuf/ffuf)
 
     ---
 
