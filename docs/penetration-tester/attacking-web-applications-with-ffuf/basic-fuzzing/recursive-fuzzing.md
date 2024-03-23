@@ -10,7 +10,7 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:
 
 | Command | Description |
 |:---|:---|
-| `-recursion` | Özyinelemeli tarama gerçekleştir. Yalnızca `FUZZ` anahtar kelimesi desteklenmektedir. |
+| `-recursion` | Özyinelemeli tarama gerçekleştir. Anahtar kelime olarak yalnızca `FUZZ` kelimesi kullanılabilir. Ayrıca bu kelime (`FUZZ`) URL kısmının sonuna eklenmelidir. |
 | `-recursion-depth` | Maksimum özyineleme derinliğini belirtmek için kullanılır. |
 | `-e` | Taranacak sayfa uzantılarını belirtmek için kullanılır. |
 | `-v` | Ayrıntılı çıktı göster. Tam URL bilgisini gösterdiğinden faydalı bir seçenektir. |

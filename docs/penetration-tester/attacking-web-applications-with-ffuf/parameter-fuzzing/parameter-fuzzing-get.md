@@ -2,12 +2,12 @@
 icon: material/circle-small
 ---
 
-# Directory Fuzzing
+# Parameter Fuzzing - GET
 
-Wordlist dosyasının sonuna `FUZZ` anahtar kelimesi eklenerek, wordlist ile anahtar kelime ilişkilendirilebilir (birden fazla wordlist kullanılabilir):
+Bir web sitesine GET sorgusu gerçekleştirmek için kullanabilecek parametreleri öğrenmek için aşağıdaki gibi bir komut (`?FUZZ=key`) kullanabiliriz:
 
 ```bash
-ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP_ADDRESS:PORT/FUZZ
+ffuf -fs 786 -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php?FUZZ=key
 ```
 
 ```text title="Output"
@@ -22,17 +22,17 @@ ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:
 ________________________________________________
 
  :: Method           : GET
- :: URL              : http://SERVER_IP_ADDRESS:PORT/FUZZ
- :: Wordlist         : FUZZ: /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt
+ :: URL              : http://admin.academy.htb:PORT/admin/admin.php?FUZZ=key
+ :: Wordlist         : FUZZ: /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt
  :: Follow redirects : false
  :: Calibration      : false
  :: Timeout          : 10
  :: Threads          : 40
  :: Matcher          : Response status: 200,204,301,302,307,401,403
+ :: Filter           : Response size: 786
 ________________________________________________
 
-...SNIP...
+user                    [Status: 200, Size: 783, Words: 221, Lines: 54]
 
-blog                    [Status: 301, Size: 326, Words: 20, Lines: 10]
-:: Progress: [87651/87651] :: Job [1/1] :: 9739 req/sec :: Duration: [0:00:09] :: Errors: 0 ::
+...SNIP...
 ```
