@@ -373,6 +373,9 @@ nav:
       - penetration-tester/attacking-web-applications-with-ffuf/basic-fuzzing/directory-fuzzing.md
       - penetration-tester/attacking-web-applications-with-ffuf/basic-fuzzing/page-fuzzing.md
       - penetration-tester/attacking-web-applications-with-ffuf/basic-fuzzing/recursive-fuzzing.md
+    - Domain Fuzzing:
+      - penetration-tester/attacking-web-applications-with-ffuf/domain-fuzzing/sub-domains.md
+      - penetration-tester/attacking-web-applications-with-ffuf/domain-fuzzing/vhost-fuzzing.md
   - Login Brute Forcing:
     - penetration-tester/login-brute-forcing/index.md
   - Cross-Site Scripting (XSS):
