@@ -7,7 +7,7 @@ icon: material/circle-small
 vHost bölümünde karşılaşılan tüm sayfaların 200 OK yanıtı göndermesi durumu, taramanın yanıt boyutuna göre filtrelenmesiyle (örneğin `-fs 900`) çözülebilir:
 
 ```bash
-ffuf -fs 900 -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://academy.htb:PORT/ -H 'Host: FUZZ.academy.htb'
+ffuf -ic -fs 900 -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://academy.htb:PORT/ -H 'Host: FUZZ.academy.htb'
 ```
 
 ```text title="Output"

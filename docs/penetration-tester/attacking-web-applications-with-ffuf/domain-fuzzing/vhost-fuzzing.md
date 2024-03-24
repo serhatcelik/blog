@@ -21,7 +21,7 @@ Böyle durumlarda vHost Fuzzing yöntemini kullanmak faydalı olabilir.
 Wordlist içerisinde bulunan kayıtların tamamını `/etc/hosts` dosyasına el ile eklemeden vHost Fuzzing gerçekleştirebilmek için HTTP başlıkları (örneğin `Host: FUZZ.academy.htb`) kullanılabilir:
 
 ```bash
-ffuf -H 'Host: FUZZ.academy.htb' -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://academy.htb:PORT/
+ffuf -ic -H 'Host: FUZZ.academy.htb' -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://academy.htb:PORT/
 ```
 
 ```text title="Output"

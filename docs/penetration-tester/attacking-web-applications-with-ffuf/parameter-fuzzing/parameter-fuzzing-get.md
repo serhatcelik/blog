@@ -7,7 +7,7 @@ icon: material/circle-small
 Bir web sitesine GET sorgusu gerçekleştirmek için kullanabilecek parametreleri öğrenmek için aşağıdaki gibi bir komut (`?FUZZ=key`) kullanabiliriz:
 
 ```bash
-ffuf -fs 786 -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php?FUZZ=key
+ffuf -ic -fs 786 -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php?FUZZ=key
 ```
 
 ```text title="Output"

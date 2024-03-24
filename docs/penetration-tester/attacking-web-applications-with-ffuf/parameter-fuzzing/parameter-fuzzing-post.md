@@ -9,7 +9,7 @@ icon: material/circle-small
     PHP, POST sorgularında Content-Type değeri olarak sadece `application/x-www-form-urlencoded` değerini kabul etmektedir. Bu yüzden FFuF komutuna bu değer `-H` seçeneği ile eklenmelidir.
 
 ```bash
-ffuf -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -fs 785 -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php
+ffuf -ic -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -fs 785 -w /opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php
 ```
 
 ```text title="Output"

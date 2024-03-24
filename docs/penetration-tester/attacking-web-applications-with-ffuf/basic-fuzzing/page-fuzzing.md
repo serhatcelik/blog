@@ -11,7 +11,7 @@ Kullanılacak olan wordlist içerisinde bulunan uzantılar nokta işareti içeri
 Kullanılacak olan wordlist içerisinde bulunan uzantılar nokta işareti içermiyorsa, anahtar kelime ile sayfa ismi arasına nokta işareti eklenmelidir (`index.FUZZ`).
 
 ```bash
-ffuf -w /opt/useful/SecLists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://SERVER_IP_ADDRESS:PORT/blog/indexFUZZ
+ffuf -ic -w /opt/useful/SecLists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://SERVER_IP_ADDRESS:PORT/blog/indexFUZZ
 ```
 
 ```text title="Output"
@@ -43,7 +43,7 @@ ________________________________________________
 Çıktıda görüldüğü üzere bu web sitesi, uzantısı .php olan dosyalar kullanıyor. Bundan sonra FFuF aracını normal şekilde (`FUZZ.php`) kullanarak PHP sayfalarını bulabiliriz:
 
 ```bash
-ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP_ADDRESS:PORT/blog/FUZZ.php
+ffuf -ic -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP_ADDRESS:PORT/blog/FUZZ.php
 ```
 
 ```text title="Output"

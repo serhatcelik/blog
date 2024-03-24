@@ -15,7 +15,7 @@ for i in $(seq 1 1000); do echo "$i" >> ids.txt; done
 Oluşturduğumuz wordlist ile parametre değerlerine fuzzing işlemi uygulayabiliriz:
 
 ```bash
-ffuf -X POST -d 'id=FUZZ' -w ids.txt:FUZZ -H 'Content-Type: application/x-www-form-urlencoded' -fs 768 -u http://admin.academy.htb:PORT/admin/admin.php
+ffuf -ic -X POST -d 'id=FUZZ' -w ids.txt:FUZZ -H 'Content-Type: application/x-www-form-urlencoded' -fs 768 -u http://admin.academy.htb:PORT/admin/admin.php
 ```
 
 ```text title="Output"

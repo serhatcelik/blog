@@ -4,10 +4,14 @@ icon: material/circle-small
 
 # Directory Fuzzing
 
-Wordlist dosyasının sonuna `FUZZ` anahtar kelimesi eklenerek, wordlist ile anahtar kelime ilişkilendirilebilir (birden fazla wordlist kullanılabilir):
+Wordlist dosyasının sonuna `FUZZ` anahtar kelimesi eklenerek, wordlist ile anahtar kelime ilişkilendirilebilir. FFuF komutuna birden fazla wordlist tek seferde verilebilir.
+
+!!! warning "Wordlist Comments"
+
+    Bazı wordlist dosyalarında yorum satırları bulunmaktadır. FFuF taramasını başlatmadan önce bu satırları kaldırmak faydalı olacaktır. Bu işlem el ile veya FFuF aracının `-ic` seçeneğiyle gerçekleştirilebilir.
 
 ```bash
-ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP_ADDRESS:PORT/FUZZ
+ffuf -ic -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP_ADDRESS:PORT/FUZZ
 ```
 
 ```text title="Output"
