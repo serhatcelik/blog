@@ -5,7 +5,7 @@ icon: material/circle-small
 # Recursive Fuzzing
 
 ```bash
-ffuf -ic -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP_ADDRESS:PORT/FUZZ -recursion -recursion-depth 1 -e .php -v
+ffuf -ic -recursion -recursion-depth 1 -v -e .php -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP_ADDRESS:PORT/FUZZ
 ```
 
 | Command | Description |
