@@ -13,7 +13,7 @@ Eğer `/etc/hosts` dosyasında ilgili alan adı için bir kayıt bulunamazsa Pub
     Alt alan adlarını elde edebilmek için vHost Fuzzing yöntemi kullanılabilir.
 
 ```bash
-ffuf -ic -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.inlanefreight.com/
+ffuf -ic -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.inlanefreight.com/
 ```
 
 ```text title="Output"
@@ -28,7 +28,7 @@ ffuf -ic -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:F
 ________________________________________________
 
  :: Method           : GET
- :: URL              : https://FUZZ.inlanefreight.com/
+ :: URL              : http://FUZZ.inlanefreight.com/
  :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
  :: Follow redirects : false
  :: Calibration      : false
