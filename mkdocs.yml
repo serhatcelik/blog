@@ -383,6 +383,8 @@ nav:
       - penetration-tester/attacking-web-applications-with-ffuf/parameter-fuzzing/value-fuzzing.md
   - Login Brute Forcing:
     - penetration-tester/login-brute-forcing/index.md
+  - SQL Injection Fundamentals:
+    - penetration-tester/sql-injection-fundamentals/index.md
   - Cross-Site Scripting (XSS):
     - penetration-tester/cross-site-scripting-xss/index.md
   - File Inclusion:
