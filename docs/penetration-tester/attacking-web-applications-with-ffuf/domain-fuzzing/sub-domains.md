@@ -10,7 +10,7 @@ Eğer `/etc/hosts` dosyasında ilgili alan adı için bir kayıt bulunamazsa Pub
 
 !!! info "vHosts"
 
-    Alt alan adlarını elde edebilmek için vHost Fuzzing yöntemi kullanılabilir.
+    Public DNS kayıtlarında bulunmayan alt alan adlarını elde edebilmek için vHost Fuzzing yöntemi kullanılabilir.
 
 ```bash
 ffuf -ic -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.inlanefreight.com/
