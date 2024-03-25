@@ -4,7 +4,7 @@ icon: material/circle-small
 
 # Organization
 
-Klasör yapısını sızma testi aşamalarına ve işletim sistemlerine göre veya elde edilen verilere göre organize etmek düzenli çalışmamızı sağlar.
+Klasör yapısını, sızma testi aşamalarına, işletim sistemlerine veya elde edilen verilere göre organize etmek düzenli çalışmamızı sağlar.
 
 ## 1. Discovered Information
 
