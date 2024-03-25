@@ -27,7 +27,7 @@ Log tutmak sızma testinin önemli bir parçasıdır. Test sırasında başka ki
 Kaydı başlat:
 
 ```bash
-script $(date +"%m-%d-%Y_%H-%M")-filename.log
+script "$(date +"%m-%d-%Y_%H-%M")"-filename.log
 ```
 
 Kaydı durdur:
