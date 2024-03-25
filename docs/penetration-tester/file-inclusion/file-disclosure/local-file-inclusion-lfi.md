@@ -32,7 +32,7 @@ Sitenin kaynak kodunda aşağıdaki gibi bir satır olsun:
 include("./languages/" . $_GET['language']);
 ```
 
-Bu durumda, Basic LFI kısmında bahsedilen yöntem (`/etc/passwd`) işe yaramayacaktır. Çünkü GET parametresini aynı şekilde verdiğimizde, mevcut olmayan bir dosya yolu (`./languages//etc/passwd`) talep etmiş oluruz.
+Bu durumda, Basic LFI kısmında bahsedilen yöntem (`/etc/passwd`) işe yaramayacaktır. Çünkü GET parametresini ilgili şekilde verdiğimizde, mevcut olmayan bir dosya yolu (`./languages//etc/passwd`) talep etmiş oluruz.
 
 * [x] Bunun için GET parametresini `?language=../../../etc/passwd` olarak değiştirmeyi deneyebiliriz.
 
@@ -44,7 +44,7 @@ Sitenin kaynak kodunda aşağıdaki gibi bir satır olsun:
 include("lang_" . $_GET['language']);
 ```
 
-Bu durumda, Path Traversal kısmında bahsedilen yöntem (`../../../etc/passwd`) işe yaramayacaktır. Çünkü GET parametresini aynı şekilde verdiğimizde, mevcut olmayan bir dosya yolu (`lang_../../../etc/passwd`) talep etmiş oluruz.
+Bu durumda, Path Traversal kısmında bahsedilen yöntem (`../../../etc/passwd`) işe yaramayacaktır. Çünkü GET parametresini ilgili şekilde verdiğimizde, mevcut olmayan bir dosya yolu (`lang_../../../etc/passwd`) talep etmiş oluruz.
 
 * [x] Bunun için GET parametresini `?language=/../../../etc/passwd` olarak değiştirmeyi deneyebiliriz.
 

@@ -393,6 +393,7 @@ nav:
       - penetration-tester/file-inclusion/introduction/intro-to-file-inclusions.md
     - File Disclosure:
       - penetration-tester/file-inclusion/file-disclosure/local-file-inclusion-lfi.md
+      - penetration-tester/file-inclusion/file-disclosure/basic-bypasses.md
 - Modules:
   - modules/index.md
   - JavaScript Deobfuscation:
