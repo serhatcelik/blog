@@ -4,7 +4,7 @@ icon: material/help
 
 # Task Scheduling
 
-Linux sistemlerinde `systemd` aracı kullanılarak işlemler, belli bir zaman ya da zaman aralığında çalışacak şekilde ayarlanabilir. Bunun için aşağıdaki adımlar takip edilmelidir:
+Linux sistemlerinde `systemd` aracı kullanılarak işlemler, belirli bir zaman ya da zaman aralığında çalışacak şekilde ayarlanabilir. Bunun için aşağıdaki adımlar takip edilmelidir:
 
 1. Zamanlayıcı oluştur.
 2. Servis oluştur.

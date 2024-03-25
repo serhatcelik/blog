@@ -389,6 +389,10 @@ nav:
     - penetration-tester/cross-site-scripting-xss/index.md
   - File Inclusion:
     - penetration-tester/file-inclusion/index.md
+    - Introduction:
+      - penetration-tester/file-inclusion/introduction/intro-to-file-inclusions.md
+    - File Disclosure:
+      - penetration-tester/file-inclusion/file-disclosure/local-file-inclusion-lfi.md
 - Modules:
   - modules/index.md
   - JavaScript Deobfuscation:
