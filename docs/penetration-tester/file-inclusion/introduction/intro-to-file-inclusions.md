@@ -14,10 +14,10 @@ if (isset($_GET['language'])) {
 
 | Function | Read Content | Execute | Remote URL |
 |:---|:---:|:---:|:---:|
-| `include()` | X | X | X |
-| `require()` | X | X ||
+| `include()` / `include_once()` | X | X | X |
+| `require()` / `require_once()` | X | X ||
 | `file_get_contents()` | X || X |
-| `fopen()` | X |||
+| `fopen()` / `file()` | X |||
 
 ## NodeJS
 
