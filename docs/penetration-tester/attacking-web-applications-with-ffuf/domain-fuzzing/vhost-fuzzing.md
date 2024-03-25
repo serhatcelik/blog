@@ -61,4 +61,4 @@ www1                    [Status: 200, Size: 900, Words: 423, Lines: 56]
 
 Çıktıda karşılaşılan sonuçlar garip gelmiş olabilir. Çünkü tüm sayfalar 200 OK yanıtı döndürmektedir! Bu durum aslında normaldir. Çünkü fuzzing gerçekleştirmek için kullandığımız adres (`academy.htb:PORT`) aynı kalırken, HTTP başlığının (`Host: FUZZ.academy.htb`) içeriği değişmektedir.
 
-Bununla birlikte, eğer doğru vHost bilgisini HTTP başlığında gönderirsek, çıktıda farklı bir yanıt boyutu (`Size`) gözükecektir. Bu sayede gerçek sayfayı tespit etmemiz mümkün olabilir.
+Bununla birlikte, doğru vHost bilgisini HTTP başlığında gönderirsek, çıktıda farklı bir yanıt boyutu (`Size`) gözükecektir. Bu sayede gerçek sayfayı tespit etmemiz mümkün olabilir.

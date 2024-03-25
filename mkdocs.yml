@@ -395,6 +395,8 @@ nav:
       - penetration-tester/file-inclusion/file-disclosure/local-file-inclusion-lfi.md
       - penetration-tester/file-inclusion/file-disclosure/basic-bypasses.md
       - penetration-tester/file-inclusion/file-disclosure/php-filters.md
+    - Remote Code Execution:
+      - penetration-tester/file-inclusion/remote-code-execution/php-wrappers.md
 - Modules:
   - modules/index.md
   - JavaScript Deobfuscation:
