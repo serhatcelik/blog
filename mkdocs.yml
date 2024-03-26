@@ -476,5 +476,6 @@ nav:
       - misc/programming/c/execution-process.md
       - misc/programming/c/constants.md
       - misc/programming/c/variables.md
+      - misc/programming/c/operators.md
     - Python:
       - misc/programming/python/packaging-python-projects.md
