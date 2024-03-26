@@ -117,9 +117,36 @@ markdown_extensions:
     pygments_lang_class: true
 - pymdownx.inlinehilite
 - pymdownx.keys:
+    strict: false
     key_map:
-      dollar: "$"
-      percent: "%"
+      lower-a: "a"
+      lower-b: "b"
+      lower-c: "c"
+      lower-d: "d"
+      lower-e: "e"
+      lower-f: "f"
+      lower-g: "g"
+      lower-h: "h"
+      lower-i: "i"
+      lower-j: "j"
+      lower-k: "k"
+      lower-l: "l"
+      lower-m: "m"
+      lower-n: "n"
+      lower-o: "o"
+      lower-p: "p"
+      lower-q: "q"
+      lower-r: "r"
+      lower-s: "s"
+      lower-t: "t"
+      lower-u: "u"
+      lower-v: "v"
+      lower-w: "w"
+      lower-x: "x"
+      lower-y: "y"
+      lower-z: "z"
+      currency-usd: "$"
+      percent-sign: "%"
 - pymdownx.smartsymbols
 - pymdownx.snippets:
     check_paths: true
@@ -461,6 +488,7 @@ nav:
       - misc/cybersecurity/linux/soft-link-and-hard-link.md
       - misc/cybersecurity/linux/ssh2-msg-kex-ecdh-reply.md
       - misc/cybersecurity/linux/tmux-basics.md
+      - misc/cybersecurity/linux/vim-basics.md
       - misc/cybersecurity/linux/virtualbox-dnd.md
       - misc/cybersecurity/linux/virtualbox-guest-additions.md
     - Windows:

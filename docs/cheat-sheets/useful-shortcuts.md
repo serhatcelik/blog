@@ -9,8 +9,8 @@ hide:
 
 | Shortcut | Description |
 |:---|:---|
-| ++control+left++ | Boşluğa kadar sola ilerle. |
-| ++control+right++ | Boşluğa kadar sağa ilerle. |
+| ++control+left++ | Kelime boyu sola ilerle. |
+| ++control+right++ | Kelime boyu sağa ilerle. |
 | ++shift+left++ | Karakter boyu sola seçerek ilerle. |
 | ++shift+right++ | Karakter boyu sağa seçerek ilerle. |
 | ++control+shift+left++ | Kelime boyu sola seçerek ilerle. |
