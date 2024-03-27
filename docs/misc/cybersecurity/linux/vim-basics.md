@@ -1,18 +1,14 @@
 # Vim Basics
 
-## Install Vim
+## Modes
 
-Vim yazılımını yüklemek için aşağıdaki komut kullanılabilir:
+### NORMAL Mode
 
-```bash
-sudo pacman -Syy vim
-```
-
-## 1. Normal Mode
+Vim, otomatik olarak NORMAL modda açılır. NORMAL mod haricinde bir modda iken tekrar NORMAL moda geçiş yapmak için ++escape++ tuşu ya da ++control+bracket-left++ tuş kombinasyonu kullanılabilir.
 
 !!! info "Vim Motions"
 
-    Vim motions (hareketler), imleci hareket ettirmek için kullanılan tuşlardır.
+    Vim motions (hareketler), imleci istenilen konuma hareket ettirmek için kullanılan tuşlardır.
 
 | Motion | Description |
 |:---|:---|
@@ -30,5 +26,86 @@ sudo pacman -Syy vim
 | Command | Description |
 |:---|:---|
 | ++lower-d++ ++lower-d++ | Mevcut satırı sil. |
+| ++lower-y++ ++lower-y++ | Mevcut satırı kopyala. |
+| ++lower-p++ | Kopyalanan içeriği imleç sonrasına yapıştır. |
+| ++p++ | Kopyalanan içeriği imleç öncesine yapıştır. |
 | ++lower-u++ | Geri al. |
 | ++control+lower-r++ | Yinele. |
+
+!!! info "Command + Count + Motion"
+
+    Komutlar, motion tuşları ile birlikte kullanılabilir. Örneğin ++lower-d++ ++2++ ++lower-j++ tuş kombinasyonu ile mevcut satır ve bu satırın altında bulunan 2 satır (toplamda 3 satır) silinebilir.
+
+### COMMAND Mode
+
+NORMAL modda iken ++colon++ tuşuna basılarak COMMAND moda geçiş yapılabilir.
+
+| Command | Description |
+|:---|:---|
+| `:w` | Değişiklikleri kaydet. |
+| `:q` | Vim uygulamasından çık. |
+| `:q!` | Değişiklikleri kaydetmeden çık. |
+| `:wq` | Değişiklikleri kaydet ve çık. |
+| `:x` | Değişiklikleri kaydet ve çık. |
+
+### INSERT Mode
+
+NORMAL modda iken ++lower-i++ tuşuna basılarak INSERT moda geçiş yapılabilir.
+
+Hem INSERT moda geçiş yapmak hem de imleci mevcut karakterin bir sağına hareket ettirmek için, NORMAL modda iken ++lower-a++ tuşuna basılabilir.
+
+### VISUAL Mode
+
+NORMAL modda iken ++lower-v++ tuşuna basılarak VISUAL moda geçiş yapılabilir.
+
+Bu modda iken, NORMAL modda bahsedilen motion tuşları aynı şekilde kullanılabilir. Ek olarak yapılan hareketler ile metin seçimi gerçekleştirilir.
+
+| Command | Description |
+|:---|:---|
+| ++lower-y++ | Mevcut seçimi kopyala. |
+| ++lower-p++ | Kopyalanan seçimi imleç sonrasına yapıştır. |
+| ++p++ | Kopyalanan seçimi imleç öncesine yapıştır. |
+
+### VISUAL LINE Mode
+
+NORMAL modda iken ++v++ tuşuna basılarak VISUAL LINE moda geçiş yapılabilir.
+
+Bu modda iken, VISUAL moda benzer şekilde metin seçimi gerçekleştirilir. Farklı olarak seçim işlemi satır satır işleme alınır.
+
+## Movement
+
+### Horizontal Movement
+
+| Motion | Description |
+|:---|:---|
+| ++circumflex++ | Satır başına git. |
+| ++dollar++ | Satır sonuna git. |
+| ++lower-d++ ++circumflex++ | Mevcut konumdan satır başına kadar olan kısmı sil. |
+| ++lower-d++ ++dollar++ | Mevcut konumdan satır sonuna kadar olan kısmı sil. |
+| ++lower-f++ | Ardından verilecek karakteri bulmak için sağa ilerle. |
+| ++f++ | Ardından verilecek karakteri bulmak için sola ilerle. |
+
+!!! info "Forward Find"
+
+    ++lower-f++ kullanımına örnek olarak ++lower-f++ ++equal++ verilebilir. Bu sayede ilk ++equal++ karakterine gidilir.
+
+    ++semicolon++ ile bir sonraki ++equal++ karakterine gidilir.
+
+    ++comma++ ile bir önceki ++equal++ karakterine git.
+
+### Vertical Movement
+
+| Motion | Description |
+|:---|:---|
+| ++lower-g++ ++lower-g++ | Sayfa başına git. |
+| ++g++ | Sayfa sonuna git. |
+| ++control+lower-u++ | Bir sayfa yukarı git. |
+| ++control+lower-d++ | Bir sayfa aşağı git. |
+
+### Search
+
+| Motion | Description |
+|:---|:---|
+| ++slash++ | Aranacak ifadeyi girmek için kullan, ardından ifadeyi gir ve ++enter++ tuşuna bas. |
+| ++lower-n++ | Arama etkin iken bir sonraki eşleşmeyi bul. |
+| ++n++ | Arama etkin iken bir önceki eşleşmeyi bul. |

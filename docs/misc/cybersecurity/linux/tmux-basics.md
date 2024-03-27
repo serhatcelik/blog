@@ -29,14 +29,14 @@ Aşağıdaki tabloda tmux oturumları için bir cheat sheet verilmiştir ([kayna
 
 | Command | Description |
 |:---|:---|
-| `tmux` | Yeni bir oturum başlat. |
-| `tmux new -s s_name` | Adı `s_name` olan yeni bir oturum başlat. |
+| `:tmux` | Yeni bir oturum başlat. |
+| `:tmux new -s s_name` | Adı `s_name` olan yeni bir oturum başlat. |
 | ++control+b++ ++d++ | Mevcut oturumdan ayrıl (işlemler arka planda çalışır). |
-| `tmux a` | Son oturuma bağlan. |
-| `tmux a -t s_name` | Adı `s_name` olan oturuma bağlan. |
-| ++control+b++ ++currency-usd++ | Mevcut oturumu yeniden adlandır. |
-| `tmux kill-session -t s_name` | Adı `s_name` olan oturumu sonlandır. |
-| `tmux ls` | Tüm oturumları göster. |
+| `:tmux a` | Son oturuma bağlan. |
+| `:tmux a -t s_name` | Adı `s_name` olan oturuma bağlan. |
+| ++control+b++ ++dollar++ | Mevcut oturumu yeniden adlandır. |
+| `:tmux kill-session -t s_name` | Adı `s_name` olan oturumu sonlandır. |
+| `:tmux ls` | Tüm oturumları göster. |
 
 ## 2. Windows
 
@@ -67,7 +67,7 @@ Aşağıdaki tabloda tmux bölmeleri için bir cheat sheet verilmiştir ([kaynak
 
 | Command | Description |
 |:---|:---|
-| ++control+b++ ++percent-sign++ | Geçerli bölmeyi dikey bir çizgi ile böl (yatay düzen). |
+| ++control+b++ ++percent++ | Geçerli bölmeyi dikey bir çizgi ile böl (yatay düzen). |
 | ++control+b++ ++double-quote++ | Geçerli bölmeyi yatay bir çizgi ile böl (dikey düzen). |
 | ++control+b++ ++x++ | Geçerli bölmeyi kapat. |
 | ++control+b++ ++up++ | Yukarı bölmeye geç (art arda HIZLI basılabilir). |

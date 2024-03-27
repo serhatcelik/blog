@@ -145,8 +145,9 @@ markdown_extensions:
       lower-x: "x"
       lower-y: "y"
       lower-z: "z"
-      currency-usd: "$"
-      percent-sign: "%"
+      dollar: "$"
+      percent: "%"
+      circumflex: "^"
 - pymdownx.smartsymbols
 - pymdownx.snippets:
     check_paths: true
