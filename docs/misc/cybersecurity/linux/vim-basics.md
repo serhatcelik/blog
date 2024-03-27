@@ -99,8 +99,8 @@ Bu modda iken, VISUAL moda benzer şekilde metin seçimi gerçekleştirilir. Far
 |:---|:---|
 | ++lower-g++ ++lower-g++ | Sayfa başına git. |
 | ++g++ | Sayfa sonuna git. |
-| ++control+lower-u++ | Yarım sayfa yukarı kaydır. |
-| ++control+lower-d++ | Yarım sayfa aşağı kaydır. |
+| ++lower-o++ | İmleç sonrasına yeni satır ekle ve INSERT moda geç. |
+| ++o++ | İmleç sonrasına öncesine yeni satır ekle ve INSERT moda geç. |
 | ++control+lower-b++ | Tam sayfa yukarı kaydır. |
 | ++control+lower-f++ | Tam sayfa aşağı kaydır. |
 
