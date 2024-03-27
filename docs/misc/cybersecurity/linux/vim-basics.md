@@ -10,7 +10,7 @@ Vim, otomatik olarak NORMAL modda açılır. NORMAL mod haricinde bir modda iken
 
     Vim motions (hareketler), imleci istenilen konuma hareket ettirmek için kullanılan tuşlardır.
 
-| Motion | Description |
+| Input | Description |
 |:---|:---|
 | ++lower-j++ | Satır boyu aşağı (++down++) ilerle. |
 | ++lower-k++ | Satır boyu yukarı (++up++) ilerle. |
@@ -23,7 +23,7 @@ Vim, otomatik olarak NORMAL modda açılır. NORMAL mod haricinde bir modda iken
 
     Motion tuşları sayılar ile birlikte kullanılabilir. Örneğin ++3++ ++lower-k++ tuş kombinasyonu ile mevcut satırdan 3 satır yukarıda bulunan satıra hareket edilebilir.
 
-| Command | Description |
+| Input | Description |
 |:---|:---|
 | ++lower-d++ ++lower-d++ | Mevcut satırı sil. |
 | ++lower-y++ ++lower-y++ | Mevcut satırı kopyala. |
@@ -36,7 +36,7 @@ Vim, otomatik olarak NORMAL modda açılır. NORMAL mod haricinde bir modda iken
 
 NORMAL modda iken ++colon++ tuşuna basılarak COMMAND moda geçiş yapılabilir.
 
-| Command | Description |
+| Input | Description |
 |:---|:---|
 | `:w` | Değişiklikleri kaydet. |
 | `:q` | Vim uygulamasından çık. |
@@ -60,7 +60,7 @@ NORMAL modda iken ++lower-v++ tuşuna basılarak VISUAL moda geçiş yapılabili
 
 Bu modda iken, NORMAL modda bahsedilen motion tuşları aynı şekilde kullanılabilir. Ek olarak, yapılan hareketler ile metin seçimi gerçekleştirilir.
 
-| Command | Description |
+| Input | Description |
 |:---|:---|
 | ++lower-y++ | Mevcut seçimi kopyala. |
 | ++lower-p++ | Kopyalanan seçimi imleç sonrasına yapıştır. |
@@ -76,7 +76,7 @@ Bu modda iken, VISUAL moda benzer şekilde metin seçimi gerçekleştirilir. Far
 
 ### Horizontal Movement
 
-| Motion | Description |
+| Input | Description |
 |:---|:---|
 | ++circumflex++ | Satır başına git. |
 | ++dollar++ | Satır sonuna git. |
@@ -95,7 +95,7 @@ Bu modda iken, VISUAL moda benzer şekilde metin seçimi gerçekleştirilir. Far
 
 ### Vertical Movement
 
-| Motion | Description |
+| Input | Description |
 |:---|:---|
 | ++lower-g++ ++lower-g++ | Sayfa başına git. |
 | ++g++ | Sayfa sonuna git. |
@@ -106,7 +106,7 @@ Bu modda iken, VISUAL moda benzer şekilde metin seçimi gerçekleştirilir. Far
 
 ## Search
 
-| Motion | Description |
+| Input | Description |
 |:---|:---|
 | ++slash++ | Aranacak ifadeyi girmek için kullan, ardından ifadeyi gir ve ++enter++ tuşuna bas. |
 | ++lower-n++ | Arama etkin iken bir sonraki eşleşmeyi bul. |
