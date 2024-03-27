@@ -32,10 +32,6 @@ Vim, otomatik olarak NORMAL modda açılır. NORMAL mod haricinde bir modda iken
 | ++lower-u++ | Geri al. |
 | ++control+lower-r++ | Yinele. |
 
-!!! info "Command + Count + Motion"
-
-    Komutlar, motion tuşları ile birlikte kullanılabilir. Örneğin ++lower-d++ ++2++ ++lower-j++ tuş kombinasyonu ile mevcut satır ve bu satırın altında bulunan 2 satır (toplamda 3 satır) silinebilir.
-
 ### COMMAND Mode
 
 NORMAL modda iken ++colon++ tuşuna basılarak COMMAND moda geçiş yapılabilir.
@@ -48,6 +44,10 @@ NORMAL modda iken ++colon++ tuşuna basılarak COMMAND moda geçiş yapılabilir
 | `:wq` | Değişiklikleri kaydet ve çık. |
 | `:x` | Değişiklikleri kaydet ve çık. |
 
+!!! info "Command + Count + Motion"
+
+    Komutlar, motion tuşları ile birlikte kullanılabilir. Örneğin ++lower-d++ ++2++ ++lower-j++ tuş kombinasyonu ile mevcut satır ve bu satırın altında bulunan 2 satır (toplamda 3 satır) silinebilir.
+
 ### INSERT Mode
 
 NORMAL modda iken ++lower-i++ tuşuna basılarak INSERT moda geçiş yapılabilir.
@@ -58,7 +58,7 @@ Hem INSERT moda geçiş yapmak hem de imleci mevcut karakterin bir sağına hare
 
 NORMAL modda iken ++lower-v++ tuşuna basılarak VISUAL moda geçiş yapılabilir.
 
-Bu modda iken, NORMAL modda bahsedilen motion tuşları aynı şekilde kullanılabilir. Ek olarak yapılan hareketler ile metin seçimi gerçekleştirilir.
+Bu modda iken, NORMAL modda bahsedilen motion tuşları aynı şekilde kullanılabilir. Ek olarak, yapılan hareketler ile metin seçimi gerçekleştirilir.
 
 | Command | Description |
 |:---|:---|
@@ -70,7 +70,7 @@ Bu modda iken, NORMAL modda bahsedilen motion tuşları aynı şekilde kullanıl
 
 NORMAL modda iken ++v++ tuşuna basılarak VISUAL LINE moda geçiş yapılabilir.
 
-Bu modda iken, VISUAL moda benzer şekilde metin seçimi gerçekleştirilir. Farklı olarak seçim işlemi satır satır işleme alınır.
+Bu modda iken, VISUAL moda benzer şekilde metin seçimi gerçekleştirilir. Farklı olarak, seçim işlemi satır satır işleme alınır.
 
 ## Movement
 
@@ -91,7 +91,7 @@ Bu modda iken, VISUAL moda benzer şekilde metin seçimi gerçekleştirilir. Far
 
     ++semicolon++ ile bir sonraki ++equal++ karakterine gidilir.
 
-    ++comma++ ile bir önceki ++equal++ karakterine git.
+    ++comma++ ile bir önceki ++equal++ karakterine gidilir.
 
 ### Vertical Movement
 
@@ -99,10 +99,12 @@ Bu modda iken, VISUAL moda benzer şekilde metin seçimi gerçekleştirilir. Far
 |:---|:---|
 | ++lower-g++ ++lower-g++ | Sayfa başına git. |
 | ++g++ | Sayfa sonuna git. |
-| ++control+lower-u++ | Bir sayfa yukarı git. |
-| ++control+lower-d++ | Bir sayfa aşağı git. |
+| ++control+lower-u++ | Yarım sayfa yukarı kaydır. |
+| ++control+lower-d++ | Yarım sayfa aşağı kaydır. |
+| ++control+lower-b++ | Tam sayfa yukarı kaydır. |
+| ++control+lower-f++ | Tam sayfa aşağı kaydır. |
 
-### Search
+## Search
 
 | Motion | Description |
 |:---|:---|
