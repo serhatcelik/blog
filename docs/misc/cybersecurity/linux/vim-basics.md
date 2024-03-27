@@ -108,6 +108,7 @@ Bu modda iken, VISUAL moda benzer şekilde metin seçimi gerçekleştirilir. Far
 
 | Input | Description |
 |:---|:---|
-| ++slash++ | Aranacak ifadeyi girmek için kullan, ardından ifadeyi gir ve ++enter++ tuşuna bas. |
-| ++lower-n++ | Arama etkin iken bir sonraki eşleşmeyi bul. |
-| ++n++ | Arama etkin iken bir önceki eşleşmeyi bul. |
+| ++slash++ | İleri yönde aramayı başlat. Aranacak ifadeyi gir ve ++enter++ tuşuna bas. |
+| ++question++ | Geri yönde aramayı başlat. Aranacak ifadeyi gir ve ++enter++ tuşuna bas. |
+| ++lower-n++ | İleri/geri yönde bir sonraki eşleşmeyi bul. |
+| ++n++ | Geri/ileri yönde bir sonraki eşleşmeyi bul. |
